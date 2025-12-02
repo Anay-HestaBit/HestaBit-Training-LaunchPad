@@ -5,9 +5,9 @@ const { exec } = require("child_process");
 const execAsync = util.promisify(exec);
 
 function section(title) {
-  console.log("\n==============================");
+  console.log("\n");
   console.log(title);
-  console.log("==============================");
+  console.log("\n");
 }
 
 async function getHostName() {
