@@ -1,0 +1,29 @@
+[
+  {
+    "file": "data1.txt",
+    "metric": "lines",
+    "charCount": 40,
+    "lineCount": 3,
+    "wordCount": 8,
+    "executionTimeMs": 2.85,
+    "memoryMB": 3.48
+  },
+  {
+    "file": "data2.txt",
+    "metric": "chars",
+    "charCount": 32,
+    "lineCount": 5,
+    "wordCount": 5,
+    "executionTimeMs": 8.74,
+    "memoryMB": 3.95
+  },
+  {
+    "file": "data3.txt",
+    "metric": "words",
+    "charCount": 41,
+    "lineCount": 4,
+    "wordCount": 8,
+    "executionTimeMs": 9.23,
+    "memoryMB": 3.96
+  }
+]
