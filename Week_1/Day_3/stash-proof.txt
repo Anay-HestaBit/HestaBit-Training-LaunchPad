@@ -1,0 +1,1 @@
+Stash created on main, switched to release/v0.1, then stash popped successfully.
