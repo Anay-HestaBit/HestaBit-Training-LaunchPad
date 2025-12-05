@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "192fb301-c8fb-4ca6-a95d-598edb93afc4",
+		"name": "GitHub Octocat API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50606037",
+		"_collection_link": "https://anayg-hestabit-8416769.postman.co/workspace/Anay's-Workspace~9aa90478-e3d2-4e8b-84cf-8b90963bb514/collection/50606037-192fb301-c8fb-4ca6-a95d-598edb93afc4?action=share&source=collection_link&creator=50606037"
+	},
+	"item": [
+		{
+			"name": "Get Octocat User",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Postman",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.github.com/users/octocat/repos?page=1&per_page=5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"octocat",
+						"repos"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
