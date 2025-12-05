@@ -4,7 +4,7 @@ const path = require("path");
 const metrics = {
   timestamp: new Date().toISOString(),
   cpuUsage: process.cpuUsage(),
-  resourceUsage: process.resourceUsage()
+  resourceUsage: process.resourceUsage(),
 };
 
 const logDir = path.join(__dirname, "logs");

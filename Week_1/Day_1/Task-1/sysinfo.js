@@ -18,7 +18,9 @@ async function getHostName() {
 async function getDiskSpace() {
   section("Disk Space (df -h)");
   try {
-    const { stdout } = await execAsync("df -h --output=source,fstype,size,used,avail,pcent,target");
+    const { stdout } = await execAsync(
+      "df -h --output=source,fstype,size,used,avail,pcent,target"
+    );
     console.log(stdout.trim());
   } catch (err) {
     console.log("Error:", err.message);
