@@ -1,12 +1,12 @@
-const form = document.getElementById("todo-form");
-const input = document.getElementById("todo-input");
-const list = document.getElementById("todo-list");
+const form = document.getElementById('todo-form');
+const input = document.getElementById('todo-input');
+const list = document.getElementById('todo-list');
 
 let todos = [];
 
 function loadTodos() {
   try {
-    const stored = localStorage.getItem("todos");
+    const stored = localStorage.getItem('todos');
     todos = stored ? JSON.parse(stored) : [];
   } catch {
     todos = [];
@@ -14,14 +14,14 @@ function loadTodos() {
 }
 
 function saveTodos() {
-  localStorage.setItem("todos", JSON.stringify(todos));
+  localStorage.setItem('todos', JSON.stringify(todos));
 }
 
 function renderTodos() {
-  list.innerHTML = "";
+  list.innerHTML = '';
 
   todos.forEach((todo, index) => {
-    const li = document.createElement("li");
+    const li = document.createElement('li');
 
     li.innerHTML = `
       <span>${todo}</span>
@@ -35,7 +35,7 @@ function renderTodos() {
   });
 }
 
-form.addEventListener("submit", (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const value = input.value.trim();
@@ -45,19 +45,19 @@ form.addEventListener("submit", (e) => {
   saveTodos();
   renderTodos();
 
-  input.value = "";
+  input.value = '';
 });
 
-list.addEventListener("click", (e) => {
+list.addEventListener('click', (e) => {
   const { action, index } = e.target.dataset;
   if (!action) return;
 
-  if (action === "delete") {
+  if (action === 'delete') {
     todos.splice(index, 1);
   }
 
-  if (action === "edit") {
-    const updated = prompt("Edit todo:", todos[index]);
+  if (action === 'edit') {
+    const updated = prompt('Edit todo:', todos[index]);
     if (updated && updated.trim()) {
       todos[index] = updated.trim();
     }
