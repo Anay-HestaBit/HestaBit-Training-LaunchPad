@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="product-top">
+      <h2>NEW PRODUCTS</h2>
+
+      <div class="header-right">
+        <input type="text" id="searchInput" placeholder="Search products..." />
+
+        <div class="sort-wrapper">
+          <select id="sortSelect">
+            <option value="">Sort by price</option>
+            <option value="high">High → Low</option>
+            <option value="low">Low → High</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <section class="product-grid" id="productGrid"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
