@@ -38,41 +38,63 @@ export default function DashboardPage() {
           <Badge text="+8%" color="green" />
         </Card>
       </div>
-      <div className='grid grid-cols-2 gap-8'>
+      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-8">
         <Card>
-  <div className="flex items-center justify-between gap-6">
-    
-    {/* Left content */}
-    <div className="flex flex-col max-w-md">
-      <span className="text-sm text-gray-400">
-        Built by developers
-      </span>
+          <div className="flex justify-between gap-35 min-h-55">
+            <div className="flex flex-col justify-between">
+              <div className="max-w-sm">
+                <span className="text-sm text-gray-400">
+                  Built by developers
+                </span>
+                <h2 className="text-xl font-bold text-gray-800 mt-1">
+                  Purity UI Dashboard
+                </h2>
+                <p className="text-sm text-gray-500 mt-2">
+                  From colors, cards, typography to complex elements, you will
+                  find the full documentation.
+                </p>
+              </div>
+              <a className="flex items-center gap-1 text-sm font-medium text-black" href=''>
+                Read more →
+              </a>
+            </div>
+            <div className="w-100 rounded-xl overflow-hidden">
+              <img
+                src="/chakra.png"
+                alt="chakra"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </Card>
+        <div className="bg-white rounded-2xl shadow-lg p-4">
+          {/* Inner container (this is what the image fills) */}
+          <div className="relative min-h-65 rounded-xl overflow-hidden">
+            {/* Image fills INNER container */}
+            <img
+              src="/Background.svg"
+              alt="team"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
 
-      <h2 className="text-xl font-bold text-gray-800 mt-1">
-        Purity UI Dashboard
-      </h2>
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
 
-      <p className="text-sm text-gray-500 mt-2">
-        From colors, cards, typography to complex elements,
-        you will find the full documentation.
-      </p>
+            {/* Content */}
+            <div className="relative z-10 flex flex-col justify-between h-full p-6 text-white">
+              <div className="max-w-lg">
+                <h2 className="text-2xl font-bold">Work with the Rockets</h2>
 
-      <button className="flex items-center gap-1 text-sm font-medium text-gray-700 mt-4">
-        Read more →
-      </button>
-    </div>
-
-    {/* Right media */}
-    <div className="flex items-center justify-center w-64 h-36 rounded-xl bg-teal-400">
-      <span className="text-white text-2xl font-semibold">
-        chakra
-      </span>
-    </div>
-  </div>
-</Card>
-
+                <p className="mt-3 text-base opacity-90 leading-relaxed">
+                  Wealth creation is an evolutionarily recent positive-sum game.
+                  It is all about who take the opportunity first.
+                </p>
+              </div>
+              <a className="text-sm  text-white font-medium mt-30" href=''>Read more →</a>
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 }
