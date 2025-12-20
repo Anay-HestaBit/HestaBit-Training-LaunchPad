@@ -54,7 +54,10 @@ export default function DashboardPage() {
                   find the full documentation.
                 </p>
               </div>
-              <a className="flex items-center gap-1 text-sm font-medium text-black" href=''>
+              <a
+                className="flex items-center gap-1 text-sm font-medium text-black"
+                href=""
+              >
                 Read more →
               </a>
             </div>
@@ -90,7 +93,9 @@ export default function DashboardPage() {
                   It is all about who take the opportunity first.
                 </p>
               </div>
-              <a className="text-sm  text-white font-medium mt-30" href=''>Read more →</a>
+              <a className="text-sm  text-white font-medium mt-30" href="">
+                Read more →
+              </a>
             </div>
           </div>
         </div>
