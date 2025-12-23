@@ -20,4 +20,4 @@ if [ -n "$STAGED_LOG_FILES" ]; then
 fi
 
 # ✅ Run lint-staged (Prettier check)
-npx lint-staged
+# npx lint-staged

@@ -82,7 +82,7 @@ export default function DashboardPage() {
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/40 to-transparent" />
 
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-between h-full p-6 text-white">
@@ -181,7 +181,7 @@ export default function DashboardPage() {
             a better web
           </span>
         </div>
-        <div className=' flex gap-20'>
+        <div className=" flex gap-20">
           <span className="text-gray-400">Creative Anay</span>
           <span className="text-gray-400"> JOD Anay</span>
           <span className="text-gray-400">Blog</span>
