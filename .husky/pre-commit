@@ -1,10 +1,10 @@
 #!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
 echo "🔍 Running pre-commit checks..."
 
 # ❌ Block .env files
 STAGED_ENV_FILES=$(git diff --cached --name-only | grep -E '\.env$' || true)
-
 if [ -n "$STAGED_ENV_FILES" ]; then
   echo "❌ ERROR: .env files must not be committed:"
   echo "$STAGED_ENV_FILES"
@@ -13,24 +13,11 @@ fi
 
 # ❌ Block .log files
 STAGED_LOG_FILES=$(git diff --cached --name-only | grep -E '\.log$' || true)
-
 if [ -n "$STAGED_LOG_FILES" ]; then
   echo "❌ ERROR: .log files must not be committed:"
   echo "$STAGED_LOG_FILES"
   exit 1
 fi
 
-# ✅ Prettier check (staged JS only)
-STAGED_JS_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.js$' || true)
-
-if [ -n "$STAGED_JS_FILES" ]; then
-  echo "🎨 Checking JS formatting..."
-  npx prettier --check $STAGED_JS_FILES
-  if [ $? -ne 0 ]; then
-    echo "❌ ERROR: JavaScript files are not formatted."
-    exit 1
-  fi
-fi
-
-echo "✅ Pre-commit checks passed"
-exit 0
+# ✅ Run lint-staged (Prettier check)
+npx lint-staged

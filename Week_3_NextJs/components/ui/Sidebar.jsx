@@ -3,18 +3,17 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-/* Navigation data */
 const MAIN_NAV = [
   { name: 'Dashboard', path: '/dashboard', icon: '/icons/dashboard.png' },
-  { name: 'Tables', path: '/dashboard/tables', icon: '/icons/tables.png' },
-  { name: 'Billing', path: '/dashboard/billing', icon: '/icons/billing.png' },
-  { name: 'RTL', path: '/dashboard/rtl', icon: '/icons/RTL.png' },
+  { name: 'Tables', path: '/tables', icon: '/icons/tables.png' },
+  { name: 'Billing', path: '/billing', icon: '/icons/billing.png' },
+  { name: 'RTL', path: '/rtl', icon: '/icons/RTL.png' },
 ];
 
 const ACCOUNT_NAV = [
   { name: 'Profile', path: '/dashboard/profile', icon: '/icons/profile.png' },
-  { name: 'Sign In', path: '/dashboard/signin', icon: '/icons/signin.png' },
-  { name: 'Sign Up', path: '/dashboard/signup', icon: '/icons/signup.png' },
+  { name: 'Sign In', path: '/signin', icon: '/icons/signin.png' },
+  { name: 'Sign Up', path: '/signup', icon: '/icons/signup.png' },
 ];
 
 export default function Sidebar() {
@@ -22,19 +21,16 @@ export default function Sidebar() {
 
   return (
     <aside className="w-80 bg-white border-r px-6 py-4 flex flex-col">
-      {/* Logo */}
       <div className="flex items-center gap-2 mb-8">
-        <a href="/dashboard">
+        <a href="/">
           <img src="/icons/logo.png" alt="logo" className="w-6 h-5 ml-2" />
         </a>
-        <a href="/dashboard">
+        <a href="/">
           <span className="text-m font-semibold text-gray-800 p-5">
             PURITY UI DASHBOARD
           </span>
         </a>
       </div>
-
-      {/* Navigation */}
       <div className="flex-1">
         <ul className="space-y-2">
           {MAIN_NAV.map((item) => (
@@ -59,19 +55,18 @@ export default function Sidebar() {
             />
           ))}
         </ul>
-      </div>
+        <div className="bg-teal-400 rounded-xl p-4 text-white mt-6">
+          <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+            <span className="text-teal-400 font-bold">?</span>
+          </div>
 
-      <div className="bg-teal-400 rounded-xl p-4 text-white mt-6">
-        <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-          <span className="text-teal-400 font-bold">?</span>
+          <p className="mt-3 font-semibold">Need help?</p>
+          <p className="text-sm opacity-100">Please check our docs</p>
+
+          <button className="mt-4 bg-white text-teal-500 w-full py-2 rounded-lg text-sm font-semibold">
+            DOCUMENTATION
+          </button>
         </div>
-
-        <p className="mt-3 font-semibold">Need help?</p>
-        <p className="text-sm opacity-100">Please check our docs</p>
-
-        <button className="mt-4 bg-white text-teal-500 w-full py-2 rounded-lg text-sm font-semibold">
-          DOCUMENTATION
-        </button>
       </div>
     </aside>
   );

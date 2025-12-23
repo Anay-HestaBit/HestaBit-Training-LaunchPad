@@ -1,16 +1,24 @@
 {
-  "devDependencies": {
-    "husky": "^9.1.7",
-    "prettier": "^3.7.4"
-  },
-  "scripts": {
-    "prepare": "husky"
-  },
   "name": "launchpad",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write . --ignore-path .gitignore",
+    "format:check": "prettier --check . --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,html,css,scss,json,md}": [
+      "prettier --check"
+    ]
+  }
 }

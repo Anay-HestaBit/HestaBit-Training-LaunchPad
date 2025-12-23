@@ -55,5 +55,5 @@ h1 {
 }
 
 .accordion-item.active .icon {
-  content: "-";
+  content: '-';
 }

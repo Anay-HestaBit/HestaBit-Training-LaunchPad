@@ -51,7 +51,7 @@ function applyFilters() {
 
   if (searchQuery) {
     filtered = filtered.filter((p) =>
-      p.title.toLowerCase().includes(searchQuery),
+      p.title.toLowerCase().includes(searchQuery)
     );
   }
 

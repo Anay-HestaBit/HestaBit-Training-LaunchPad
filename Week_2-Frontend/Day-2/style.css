@@ -59,13 +59,19 @@ body {
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "content1 content1"
-    "content2 content3";
+    'content1 content1'
+    'content2 content3';
 }
 
-.content-1 { grid-area: content1; }
-.content-2 { grid-area: content2; }
-.content-3 { grid-area: content3; }
+.content-1 {
+  grid-area: content1;
+}
+.content-2 {
+  grid-area: content2;
+}
+.content-3 {
+  grid-area: content3;
+}
 
 .content-1,
 .content-2,
@@ -97,8 +103,8 @@ body {
   .content-area {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "content1"
-      "content2"
-      "content3";
+      'content1'
+      'content2'
+      'content3';
   }
 }

@@ -54,7 +54,6 @@ user.png
 settings.png
 notification.png
 
-
 ---
 
 ## 🧠 Key Concepts Learned
@@ -76,12 +75,14 @@ notification.png
 ### ✅ Day 1 – TailwindCSS + Layout System (Completed)
 
 #### What was built
+
 - **Dashboard layout skeleton**
 - **Reusable Sidebar component**
 - **Reusable Navbar component**
 - Proper page layout using `app/layout.js`
 
 #### Key learnings
+
 - How `layout.js` wraps all pages
 - Why Sidebar & Navbar should live outside `page.js`
 - How to structure a dashboard layout using Flexbox
@@ -91,6 +92,7 @@ notification.png
 - Detecting active routes using `usePathname()`
 
 #### Important architectural decisions
+
 - Sidebar controls **navigation**
 - Navbar reads **current route context**
 - Routes exist physically as folders (`page.js`)
@@ -101,6 +103,7 @@ notification.png
 ### 🔜 Day 2 – Component Library (Upcoming)
 
 Planned components:
+
 - Button
 - Card
 - Badge
@@ -108,6 +111,7 @@ Planned components:
 - Input
 
 Focus:
+
 - Props
 - Variants
 - Reusability
@@ -149,7 +153,7 @@ Focus:
 ✔ Sidebar navigation working  
 ✔ Navbar updates based on route  
 ✔ Icons & assets integrated  
-✔ Ready for Day-2 components  
+✔ Ready for Day-2 components
 
 ---
 
@@ -164,4 +168,4 @@ Focus:
 ## ✨ Author
 
 **Anay Gupta**  
-Frontend Training – Week 3  
+Frontend Training – Week 3

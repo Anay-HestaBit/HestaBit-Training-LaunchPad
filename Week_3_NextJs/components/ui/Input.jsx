@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-export default function Input({ placeholder, type = "text" }) {
+export default function Input({ placeholder, type = 'text' }) {
   return (
     <input
       type={type}

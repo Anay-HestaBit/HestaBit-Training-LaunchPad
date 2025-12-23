@@ -12,16 +12,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-h1{
-    text-align: center;
-    padding: 10px;
+h1 {
+  text-align: center;
+  padding: 10px;
 }
 .todo-container {
   background: #7d9ead;
   padding: 40px;
   width: 500px;
   border-radius: 15px;
-
 }
 
 form {

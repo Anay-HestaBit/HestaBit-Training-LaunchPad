@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // ^ optional shebang line; lets you run `./stats.js` if you chmod +x
 
-const fs = require("node:fs/promises");
-const path = require("node:path");
-const { performance } = require("node:perf_hooks");
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const { performance } = require('node:perf_hooks');
 
 // 1. Parse command-line arguments
 const args = process.argv.slice(2);
@@ -19,22 +19,22 @@ for (let i = 0; i < args.length; i++) {
   const arg = args[i];
 
   switch (arg) {
-    case "--lines":
+    case '--lines':
       options.linesFile = args[i + 1];
       i++;
       break;
 
-    case "--chars":
+    case '--chars':
       options.charsFile = args[i + 1];
       i++;
       break;
 
-    case "--words":
+    case '--words':
       options.wordsFile = args[i + 1];
       i++;
       break;
 
-    case "--unique":
+    case '--unique':
       options.uniqueFiles.push(args[i + 1]);
       i++;
       break;
@@ -67,7 +67,7 @@ async function processFile(filePath, label) {
   try {
     const start = performance.now();
 
-    const content = await fs.readFile(filePath, "utf8");
+    const content = await fs.readFile(filePath, 'utf8');
 
     const end = performance.now();
     const executionTimeMs = end - start;
@@ -104,7 +104,7 @@ async function processFile(filePath, label) {
 // Remove duplicate lines for a file
 async function removeDuplicateLines(filePath) {
   try {
-    const content = await fs.readFile(filePath, "utf8");
+    const content = await fs.readFile(filePath, 'utf8');
     const lines = content.split(/\r?\n/);
 
     const seen = new Set();
@@ -117,15 +117,15 @@ async function removeDuplicateLines(filePath) {
       }
     }
 
-    const uniqueContent = uniqueLines.join("\n");
+    const uniqueContent = uniqueLines.join('\n');
 
-    const outputDir = path.join(__dirname, "output");
+    const outputDir = path.join(__dirname, 'output');
     await fs.mkdir(outputDir, { recursive: true });
 
     const baseName = path.basename(filePath);
     const outputPath = path.join(outputDir, `unique-${baseName}`);
 
-    await fs.writeFile(outputPath, uniqueContent, "utf8");
+    await fs.writeFile(outputPath, uniqueContent, 'utf8');
 
     console.log(`Unique lines written to ${outputPath}`);
   } catch (err) {
@@ -138,17 +138,17 @@ async function writePerformanceLog(results) {
   const filtered = results.filter(Boolean); // remove nulls
 
   if (filtered.length === 0) {
-    console.log("No performance data to log.");
+    console.log('No performance data to log.');
     return;
   }
 
-  const logsDir = path.join(__dirname, "logs");
+  const logsDir = path.join(__dirname, 'logs');
   await fs.mkdir(logsDir, { recursive: true });
 
   const fileName = `performance-${Date.now()}.json`;
   const fullPath = path.join(logsDir, fileName);
 
-  await fs.writeFile(fullPath, JSON.stringify(filtered, null, 2), "utf8");
+  await fs.writeFile(fullPath, JSON.stringify(filtered, null, 2), 'utf8');
 
   console.log(`\nPerformance log written to ${fullPath}`);
 }
@@ -158,13 +158,13 @@ async function main() {
   const tasks = [];
 
   if (options.linesFile) {
-    tasks.push(processFile(options.linesFile, "lines"));
+    tasks.push(processFile(options.linesFile, 'lines'));
   }
   if (options.charsFile) {
-    tasks.push(processFile(options.charsFile, "chars"));
+    tasks.push(processFile(options.charsFile, 'chars'));
   }
   if (options.wordsFile) {
-    tasks.push(processFile(options.wordsFile, "words"));
+    tasks.push(processFile(options.wordsFile, 'words'));
   }
 
   // Run all stat tasks concurrently
@@ -180,6 +180,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("Unexpected error:", err);
+  console.error('Unexpected error:', err);
   process.exit(1);
 });
