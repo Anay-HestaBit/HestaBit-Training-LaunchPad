@@ -1,11 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const pathname = usePathname();
 
-  // get page title from url
   const parts = pathname.split('/').filter(Boolean);
   const title =
     parts.length > 1
@@ -14,8 +14,7 @@ export default function Navbar() {
       : 'Dashboard';
 
   return (
-    <header className="h-16 bg-white border-b px-6 flex items-center justify-between">
-      {/* Left side */}
+    <header className="flex h-16 items-center justify-between border-b bg-white px-6">
       <div>
         <p className="text-xs text-gray-400">
           Pages / <span className="text-gray-600">{title}</span>
@@ -23,34 +22,44 @@ export default function Navbar() {
         <h1 className="text-sm font-semibold text-gray-800">{title}</h1>
       </div>
 
-      {/* Right side */}
       <div className="flex items-center gap-4">
-        {/* Search */}
-        <div className="flex items-center bg-gray-100 px-3 py-1.5 rounded-lg gap-2">
-          <img src="/icons/search.png" alt="search" className="w-5 h-5" />
+        <div className="flex items-center gap-2 rounded-lg bg-gray-100 px-3 py-1.5">
+          <Image
+            src="/icons/search.png"
+            alt="search"
+            width={20}
+            height={20}
+          />
           <input
             type="text"
             placeholder="Type here..."
-            className="bg-transparent outline-none text-sm w-32 text-black"
+            className="w-32 bg-transparent text-sm text-black outline-none"
           />
         </div>
 
-        {/* Sign In */}
-        <div className="flex items-center gap-1 cursor-pointer">
-          <img src="/icons/user.png" alt="user" className="w-4 h-4" />
+        <div className="flex cursor-pointer items-center gap-1">
+          <Image
+            src="/icons/user.png"
+            alt="user"
+            width={16}
+            height={16}
+          />
           <span className="text-sm text-gray-600">Sign In</span>
         </div>
 
-        {/* Icons */}
-        <img
+        <Image
           src="/icons/settings.png"
           alt="settings"
-          className="w-4.5 h-4.5 cursor-pointer"
+          width={18}
+          height={18}
+          className="cursor-pointer"
         />
-        <img
+        <Image
           src="/icons/notification.png"
           alt="notification"
-          className="w-4.5 h-4.5 cursor-pointer"
+          width={18}
+          height={18}
+          className="cursor-pointer"
         />
       </div>
     </header>

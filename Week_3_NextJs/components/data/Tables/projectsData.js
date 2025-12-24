@@ -29,7 +29,7 @@ export const data = [
     Companies: {
       type: "image-text",
       value: {
-        image: "/tablesImages/tableIcons/altlassian.png",
+        image: "/tablesImages/tableIcons/atlassian.png",
         title: "Add Progress Track",
         variant: "logo"
       }

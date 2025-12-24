@@ -1,77 +1,91 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white text-black font-sans">
-      {/* NAVBAR */}
-      <nav className="p-6 flex items-center justify-between border-b border-gray-200">
-        <div className="text-xl font-bold text-black flex">
-          <a href="/">
-            <img src="/icons/logo.png" className="h-7 w-7 ml-5 mr-5"></img>
-          </a>
-          <a href="/">
-            <h1> Purity UI Dashboard</h1>
-          </a>
-        </div>
-        <div className="flex gap-4">
-          {/* Button to go to About Page */}
-          <Link
-            href="/about"
-            className="px-4 py-2 bg-gray-100 rounded hover:bg-gray-200"
-          >
-            About Us
+    <div className="min-h-screen bg-white text-black font-sans flex flex-col">
+      {/* Navbar */}
+      <nav className="border-b border-gray-200">
+        <div className="mx-auto flex max-w-6xl flex-col sm:flex-row items-center justify-between gap-4 p-6">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/icons/logo.png"
+              alt="logo"
+              width={28}
+              height={28}
+              className="mr-3"
+            />
+            <h1 className="text-lg sm:text-xl font-bold">
+              Purity UI Dashboard
+            </h1>
           </Link>
-          <Link
-            href="/signup"
-            className="px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-700"
-          >
-            Sign Up
-          </Link>
+
+          <div className="flex gap-3">
+            <Link
+              href="/about"
+              className="rounded bg-gray-100 px-4 py-2 text-sm sm:text-base hover:bg-gray-200"
+            >
+              About Us
+            </Link>
+            <Link
+              href="/signup"
+              className="rounded bg-teal-600 px-4 py-2 text-sm sm:text-base text-white hover:bg-teal-700"
+            >
+              Sign Up
+            </Link>
+          </div>
         </div>
       </nav>
 
-      {/* HERO SECTION */}
-      <main className="max-w-4xl mx-auto px-6 py-20 text-center">
-        <h1 className="text-5xl font-bold mb-6">Purity UI Dashboard</h1>
-        <p className="text-xl text-gray-600 mb-10">
+      {/* Hero */}
+      <main className="mx-auto flex max-w-4xl flex-1 flex-col items-center justify-center px-6 py-16 sm:py-20 text-center">
+        <h1 className="mb-6 text-3xl sm:text-4xl md:text-5xl font-bold">
+          Purity UI Dashboard
+        </h1>
+        <p className="mb-10 text-base sm:text-lg md:text-xl text-gray-600">
           We help you build your project quickly and easily. No complex tools,
           just simple code.
         </p>
 
-        <div className="flex justify-center gap-4">
-          <button className="px-8 py-3 bg-teal-600 text-white rounded-lg font-medium">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 w-full sm:w-auto">
+          <Link
+            href="/signup"
+            className="rounded-lg bg-teal-600 px-8 py-3 font-medium text-white hover:bg-teal-700"
+          >
             Get Started
-          </button>
+          </Link>
           <Link
             href="/dashboard"
-            className="px-8 py-3 border border-gray-300 rounded-lg font-medium hover:bg-gray-50"
+            className="rounded-lg border border-gray-300 px-8 py-3 font-medium hover:bg-gray-50"
           >
             View Dashboard
           </Link>
         </div>
       </main>
 
-      {/* SIMPLE FEATURES */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-4xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      {/* Features */}
+      <section className="bg-gray-50 py-12 sm:py-16">
+        <div className="mx-auto grid max-w-4xl gap-8 px-6 sm:grid-cols-2 md:grid-cols-3 text-center">
           <div className="p-4">
-            <h3 className="font-bold text-lg mb-2">Fast</h3>
+            <h3 className="mb-2 text-lg font-bold">Fast</h3>
             <p className="text-gray-600">Loads instantly.</p>
           </div>
           <div className="p-4">
-            <h3 className="font-bold text-lg mb-2">Clean</h3>
+            <h3 className="mb-2 text-lg font-bold">Clean</h3>
             <p className="text-gray-600">Easy to read code.</p>
           </div>
           <div className="p-4">
-            <h3 className="font-bold text-lg mb-2">Open Source</h3>
+            <h3 className="mb-2 text-lg font-bold">Open Source</h3>
             <p className="text-gray-600">Free to use forever.</p>
           </div>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="py-10 text-center text-gray-500 text-sm">
-        Created by a Developer © 2025
+      {/* Footer */}
+      <footer className="border-t border-gray-200 py-6">
+        <div className="mx-auto max-w-6xl px-6 text-center text-xs sm:text-sm text-gray-500">
+          © 2025 Purity UI Dashboard. Built with ❤️ by Anay.
+        </div>
       </footer>
     </div>
   );

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const MAIN_NAV = [
@@ -20,17 +21,20 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="w-80 bg-white border-r px-6 py-4 flex flex-col">
-      <div className="flex items-center gap-2 mb-8">
-        <a href="/">
-          <img src="/icons/logo.png" alt="logo" className="w-6 h-5 ml-2" />
-        </a>
-        <a href="/">
-          <span className="text-m font-semibold text-gray-800 p-5">
-            PURITY UI DASHBOARD
-          </span>
-        </a>
-      </div>
+    <aside className="flex w-80 flex-col border-r bg-white px-6 py-4">
+      <Link href="/" className="mb-8 flex items-center gap-2">
+        <Image
+          src="/icons/logo.png"
+          alt="logo"
+          width={24}
+          height={20}
+          className="ml-2"
+        />
+        <span className="p-5 text-m font-semibold text-gray-800">
+          PURITY UI DASHBOARD
+        </span>
+      </Link>
+
       <div className="flex-1">
         <ul className="space-y-2">
           {MAIN_NAV.map((item) => (
@@ -42,7 +46,7 @@ export default function Sidebar() {
           ))}
         </ul>
 
-        <p className="text-xs font-semibold text-gray-400 mt-6 mb-2">
+        <p className="mb-2 mt-6 text-xs font-semibold text-gray-400">
           ACCOUNT PAGES
         </p>
 
@@ -55,15 +59,16 @@ export default function Sidebar() {
             />
           ))}
         </ul>
-        <div className="bg-teal-400 rounded-xl p-4 text-white mt-6">
-          <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-            <span className="text-teal-400 font-bold">?</span>
+
+        <div className="mt-6 rounded-xl bg-teal-400 p-4 text-white">
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white">
+            <span className="font-bold text-teal-400">?</span>
           </div>
 
           <p className="mt-3 font-semibold">Need help?</p>
           <p className="text-sm opacity-100">Please check our docs</p>
 
-          <button className="mt-4 bg-white text-teal-500 w-full py-2 rounded-lg text-sm font-semibold">
+          <button className="mt-4 w-full rounded-lg bg-white py-2 text-sm font-semibold text-teal-500">
             DOCUMENTATION
           </button>
         </div>
@@ -76,22 +81,24 @@ function NavItem({ item, active }) {
   return (
     <Link href={item.path}>
       <li
-        className={`flex items-center gap-3 px-4 py-3 rounded-xl cursor-pointer
-          ${
-            active
-              ? 'bg-teal-200 text-gray-900 font-semibold'
-              : 'text-gray-500 hover:text-teal-400 hover:bg-teal-100'
-          }
-        `}
+        className={`flex cursor-pointer items-center gap-3 rounded-xl px-4 py-3 ${
+          active
+            ? 'bg-teal-200 font-semibold text-gray-900'
+            : 'text-gray-500 hover:bg-teal-100 hover:text-teal-400'
+        }`}
       >
         <div
-          className={`w-8 h-8 rounded-full flex items-center justify-center
-            ${active ? 'bg-teal-100' : 'bg-gray-100'}
-          `}
+          className={`flex h-8 w-8 items-center justify-center rounded-full ${
+            active ? 'bg-teal-100' : 'bg-gray-100'
+          }`}
         >
-          <img src={item.icon} alt={item.name} className="w-4 h-4" />
+          <Image
+            src={item.icon}
+            alt={item.name}
+            width={16}
+            height={16}
+          />
         </div>
-
         <span className="text-sm">{item.name}</span>
       </li>
     </Link>

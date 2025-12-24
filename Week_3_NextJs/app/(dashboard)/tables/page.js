@@ -1,6 +1,7 @@
 import ListCard from '@/components/Tables/ListCard';
-import { userData } from '@/components/data/Tables/autherdata.js';
-import { data } from '@/components/data/Tables/projectsdata.js';
+import { userData } from '@/components/data/Tables/authorData';
+import { data } from '@/components/data/Tables/projectsData';
+
 const columns = [
   'Companies',
   'Budget',
@@ -8,27 +9,27 @@ const columns = [
   'Completion',
   'Actions',
 ];
- const userColumns = [
-  "Author",
-  "Function",
-  "Status",
-  "Employed",
-  "Actions"
+
+const userColumns = [
+  'Author',
+  'Function',
+  'Status',
+  'Employed',
+  'Actions',
 ];
 
 export default function TablesPage() {
   return (
-    <div>
+    <div className="space-y-8">
       <ListCard
-      title={"Authors Table"}
-      columns={userColumns}
-      data={userData}
-      >
+        title="Authors Table"
+        columns={userColumns}
+        data={userData}
+      />
 
-      </ListCard>
       <ListCard
         title="Projects"
-        subtitle={'30 done this month'}
+        subtitle="✅ 30 done this month"
         columns={columns}
         data={data}
       />

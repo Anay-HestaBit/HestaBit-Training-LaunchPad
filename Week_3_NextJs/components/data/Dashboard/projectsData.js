@@ -25,7 +25,7 @@ export const data = [
       type: 'image-text',
       value: {
         text: 'Add Progress Track',
-        image: '/dashboardCardImages/tableIcons/altlassian.png',
+        image: '/dashboardCardImages/tableIcons/atlassian.png',
       },
     },
     Members: {
