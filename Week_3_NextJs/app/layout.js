@@ -7,7 +7,10 @@ import DashboardLayout from '../components/layouts/DashboardLayout';
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   const isAuthPage =
-    pathname.startsWith('/signin') || pathname.startsWith('/signup') || pathname.endsWith('/') || pathname.startsWith("/about");
+    pathname.startsWith('/signin') ||
+    pathname.startsWith('/signup') ||
+    pathname.endsWith('/') ||
+    pathname.startsWith('/about');
 
   return (
     <html lang="en">

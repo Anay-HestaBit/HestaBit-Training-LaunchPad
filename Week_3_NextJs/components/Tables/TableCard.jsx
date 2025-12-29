@@ -46,9 +46,7 @@ export default function TableCard({ columns, data }) {
                     width={isLogo ? 32 : 40}
                     height={isLogo ? 32 : 40}
                     className={
-                      isLogo
-                        ? 'object-contain'
-                        : 'rounded-full object-cover'
+                      isLogo ? 'object-contain' : 'rounded-full object-cover'
                     }
                   />
                   <div className="flex flex-col">
@@ -85,9 +83,7 @@ export default function TableCard({ columns, data }) {
             if (cell.type === 'progress') {
               return (
                 <div key={col} className="w-full">
-                  <span className="text-md text-teal-400">
-                    {cell.value}%
-                  </span>
+                  <span className="text-md text-teal-400">{cell.value}%</span>
                   <div className="mt-1 h-1 rounded bg-white">
                     <div
                       className="h-1 rounded bg-teal-400"

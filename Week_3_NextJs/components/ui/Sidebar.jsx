@@ -92,12 +92,7 @@ function NavItem({ item, active }) {
             active ? 'bg-teal-100' : 'bg-gray-100'
           }`}
         >
-          <Image
-            src={item.icon}
-            alt={item.name}
-            width={16}
-            height={16}
-          />
+          <Image src={item.icon} alt={item.name} width={16} height={16} />
         </div>
         <span className="text-sm">{item.name}</span>
       </li>

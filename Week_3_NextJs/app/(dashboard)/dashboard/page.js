@@ -36,7 +36,12 @@ export default function DashboardPage() {
           title="New Clients"
           value="+3,052"
           right={
-            <Image src="/icons/clients.png" alt="clients" width={64} height={56} />
+            <Image
+              src="/icons/clients.png"
+              alt="clients"
+              width={64}
+              height={56}
+            />
           }
         >
           <Badge text="-14%" color="red" />
@@ -125,9 +130,21 @@ export default function DashboardPage() {
             <span className="text-gray-400">than last week</span>
           </div>
           <div className="flex items-center justify-between gap-5">
-            <BottomSmallCard name="Users" img="/icons/smallUser.png" value="32,984" />
-            <BottomSmallCard name="Clicks" img="/icons/rocket.png" value="2,42m" />
-            <BottomSmallCard name="Sales" img="/icons/sales.png" value="2,400$" />
+            <BottomSmallCard
+              name="Users"
+              img="/icons/smallUser.png"
+              value="32,984"
+            />
+            <BottomSmallCard
+              name="Clicks"
+              img="/icons/rocket.png"
+              value="2,42m"
+            />
+            <BottomSmallCard
+              name="Sales"
+              img="/icons/sales.png"
+              value="2,400$"
+            />
             <BottomSmallCard name="Items" img="/icons/items.png" value="320" />
           </div>
         </div>

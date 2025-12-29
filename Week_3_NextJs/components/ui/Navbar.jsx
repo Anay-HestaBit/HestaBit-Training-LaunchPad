@@ -24,12 +24,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2 rounded-lg bg-gray-100 px-3 py-1.5">
-          <Image
-            src="/icons/search.png"
-            alt="search"
-            width={20}
-            height={20}
-          />
+          <Image src="/icons/search.png" alt="search" width={20} height={20} />
           <input
             type="text"
             placeholder="Type here..."
@@ -38,12 +33,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex cursor-pointer items-center gap-1">
-          <Image
-            src="/icons/user.png"
-            alt="user"
-            width={16}
-            height={16}
-          />
+          <Image src="/icons/user.png" alt="user" width={16} height={16} />
           <span className="text-sm text-gray-600">Sign In</span>
         </div>
 

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function SignUpNav() {
   return (
-    <div className=" fixed top-8 left-1/2 z-50 w-[50%] -translate-x-1/2 rounded-xl  px-5 py-5">
+    <div className=" absolute top-8 left-1/2 z-50 w-[50%] -translate-x-1/2 rounded-xl  px-5 py-5">
       <div className="flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image

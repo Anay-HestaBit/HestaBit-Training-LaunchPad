@@ -5,19 +5,26 @@ export default function SignUpPage() {
   return (
     <>
       <div className="bg-white p-5">
-        <div className="flex h-[520px] w-full justify-center">
+        <div className="relative flex h-[520px] w-full justify-center">
           <SignUpNav />
+          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-white px-4 mb-25">
+            <h1 className="text-4xl font-bold mb-3">Welcome!</h1>
+            <p className="max-w-md text-sm opacity-1-0">
+              Use these awesome forms to login or create new account in your
+              project for free.
+            </p>
+          </div>
           <Image
             src="/signupPage/Background.svg"
             alt="background"
             width={1920}
             height={520}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover z-0"
             priority
           />
         </div>
 
-        <div className="-mt-[200px] flex justify-center">
+        <div className="relative z-20 -mt-[200px] flex justify-center">
           <div className="flex h-auto w-full max-w-[450px] flex-col items-center rounded-2xl bg-white px-8 py-12 text-black shadow-xl md:w-[450px]">
             <h3 className="mb-6 text-lg font-semibold text-gray-900">
               Register with
@@ -54,9 +61,7 @@ export default function SignUpPage() {
 
             <form className="w-full space-y-5">
               <div>
-                <label className="mb-1 block text-sm text-black">
-                  Name
-                </label>
+                <label className="mb-1 block text-sm text-black">Name</label>
                 <input
                   type="text"
                   placeholder="Enter Your Name"
@@ -65,9 +70,7 @@ export default function SignUpPage() {
               </div>
 
               <div>
-                <label className="mb-1 block text-sm text-black">
-                  Email
-                </label>
+                <label className="mb-1 block text-sm text-black">Email</label>
                 <input
                   type="email"
                   placeholder="Enter Your Email"
