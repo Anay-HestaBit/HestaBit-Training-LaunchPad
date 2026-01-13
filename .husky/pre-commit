@@ -4,7 +4,7 @@
 echo "🔍 Running pre-commit checks..."
 
 # ❌ Block .env files
-STAGED_ENV_FILES=$(git diff --cached --name-only | grep -E '\.env$' || true)
+STAGED_ENV_FILES=$(git diff --cached --name-only | grep -E '\.env$' || grep -E '\.pem$' || true)
 if [ -n "$STAGED_ENV_FILES" ]; then
   echo "❌ ERROR: .env files must not be committed:"
   echo "$STAGED_ENV_FILES"
