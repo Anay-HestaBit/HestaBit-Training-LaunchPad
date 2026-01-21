@@ -1,0 +1,976 @@
+Transaction_ID,Date,Customer_ID,Gender,Age,City,Product_Category,Unit_Price,Quantity,Payment_Method,Customer_Rating,Total_Sales
+1000,2024-10-02,C-6448,Male,40,Berlin,Mouse,61.24,1.0,Credit Card,5.0,61.24
+1002,2024-12-23,C-9117,Male,53,Paris,Smartwatch,106.18,3.5,Paypal,5.0,530.9000000000001
+1003,2024-03-20,C-4240,Female,44,Paris,Smartwatch,349.73,1.0,Paypal,5.0,349.73
+1004,2023-03-10,C-8071,Male,29,Tokyo,Headphones,112.15,1.0,Debit Card,1.0,112.15
+1006,2023-01-21,C-640,Non-Binary,22,London,Smartphone,721.36,1.0,Bank Transfer,5.0,721.36
+1007,2024-06-18,C-1881,Male,38,Berlin,Headphones,153.14,2.0,Cash,4.0,306.28
+1008,2023-03-17,C-8959,Female,35,Tokyo,Laptop,1629.3,1.0,Debit Card,3.0,1807.1
+1010,2024-03-14,C-3140,Male,27,Toronto,Monitor,457.9,1.0,Paypal,5.0,457.9
+1011,2023-01-12,C-7555,Non-Binary,31,Singapore,Keyboard,35.86,1.0,Debit Card,4.0,35.86
+1012,2024-02-25,C-8333,Female,44,Tokyo,Headphones,114.16,1.0,Cash,3.0,114.16
+1013,2024-10-11,C-6557,Non-Binary,20,New York,Tablet,582.7,1.0,Bank Transfer,5.0,582.7
+1014,2023-11-28,C-761,Male,43,Singapore,Laptop,950.44,1.0,Credit Card,1.0,950.44
+1015,2023-09-05,C-3826,Male,37,New York,Laptop,876.89,1.0,Cash,3.0,876.89
+1016,2023-05-11,C-1649,Female,17,London,Smartphone,1311.61,1.0,Bank Transfer,4.0,1311.61
+1017,2023-10-27,C-8218,Female,26,Tokyo,Tablet,396.65,1.0,Bank Transfer,5.0,396.65
+1018,2023-04-16,C-1973,Non-Binary,38,Paris,Smartwatch,122.37,3.5,Cash,5.0,1223.7
+1019,2024-11-07,C-6089,Female,30,Singapore,Monitor,497.51,1.0,Paypal,3.0,497.51
+1021,2023-01-03,C-9989,Female,46,New York,Laptop,1409.39,1.0,Bank Transfer,5.0,1409.39
+1022,2023-08-17,C-8333,Female,38,New York,Smartwatch,199.27,1.0,Debit Card,5.0,199.27
+1023,2023-01-21,C-4433,Male,46,New York,Monitor,289.94,1.0,Cash,4.0,289.94
+1024,2024-07-08,C-5539,Non-Binary,44,Berlin,Keyboard,135.34,1.0,Cash,3.0,135.34
+1025,2023-11-26,C-4356,Non-Binary,51,London,Monitor,203.82,2.0,Cash,2.0,407.64
+1026,2023-03-17,C-2936,Non-Binary,39,London,Smartwatch,331.29,1.0,Bank Transfer,3.0,331.29
+1028,2024-11-26,C-586,Male,36,Toronto,Monitor,291.46,1.0,Credit Card,3.0,291.46
+1029,2024-11-02,C-9470,Female,31,Toronto,Keyboard,137.98,1.0,Cash,5.0,137.98
+1030,2023-02-14,C-5121,Male,52,Toronto,Keyboard,49.74,1.0,Paypal,4.0,49.74
+1031,2023-05-28,C-2966,Non-Binary,28,Singapore,Smartwatch,186.93,1.0,Paypal,5.0,186.93
+1033,2023-06-18,C-7339,Female,38,London,Tablet,824.79,1.0,Paypal,4.0,824.79
+1034,2023-04-20,C-7032,Male,26,Singapore,Laptop,1187.49,1.0,Paypal,1.0,1187.49
+1035,2023-11-05,C-3754,Male,31,Berlin,Monitor,518.11,3.0,Cash,5.0,1554.33
+1037,2023-08-26,C-4951,Male,32,Singapore,Headphones,62.36,1.0,Paypal,3.0,62.36
+1038,2023-01-30,C-425,Non-Binary,33,Paris,Smartphone,970.67,2.0,Credit Card,2.0,1941.34
+1039,2024-05-26,C-9069,Male,39,Singapore,Smartphone,799.99,3.5,Credit Card,5.0,2437.5249999999996
+1040,2023-09-11,C-7226,Female,11,London,Mouse,29.94,1.0,Credit Card,5.0,29.94
+1041,2024-07-13,C-5381,Non-Binary,34,Tokyo,Smartphone,1070.52,1.0,Debit Card,4.0,1070.52
+1042,2023-10-05,C-5482,Male,32,Singapore,Headphones,69.12,1.0,Paypal,4.0,69.12
+1043,2024-06-29,C-6275,Female,38,Berlin,Smartwatch,395.7,1.0,Debit Card,5.0,395.7
+1044,2024-03-11,C-9299,Male,48,Singapore,Laptop,1203.98,2.0,Credit Card,4.0,2407.96
+1045,2023-12-13,C-1627,Female,44,Toronto,Keyboard,67.81,1.0,Cash,3.0,67.81
+1046,2024-07-28,C-5105,Female,42,Tokyo,Smartwatch,127.09,2.0,Bank Transfer,5.0,254.18
+1047,2023-06-30,C-5682,Female,61,London,Laptop,1345.33,1.0,Debit Card,3.0,1345.33
+1048,2024-07-08,C-7877,Female,36,New York,Mouse,57.43,1.0,Paypal,5.0,57.43
+1049,2023-07-18,C-2095,Female,28,New York,Smartphone,963.3,1.0,Credit Card,3.0,963.3
+1050,2023-04-19,C-2860,Male,22,New York,Mouse,58.37,1.0,Credit Card,3.0,58.37
+1051,2023-01-09,C-2570,Male,40,Toronto,Tablet,855.71,1.0,Cash,3.0,855.71
+1052,2024-02-07,C-8181,Male,25,London,Tablet,847.29,3.0,Paypal,5.0,2437.5249999999996
+1053,2024-08-25,C-9221,Female,31,Paris,Smartphone,683.74,1.0,Paypal,4.0,683.74
+1055,2024-08-04,C-1397,Male,50,Berlin,Mouse,16.52,3.0,Paypal,2.0,49.56
+1056,2023-07-17,C-6683,Non-Binary,38,Paris,Mouse,33.73,1.0,Debit Card,3.0,33.73
+1057,2024-06-06,C-2968,Non-Binary,44,Paris,SmrtWatch,476.68,3.0,Debit Card,3.0,1430.04
+1058,2023-10-10,C-3444,Female,38,New York,Keyboard,103.46,1.0,Cash,4.0,103.46
+1059,2023-03-06,C-4331,Female,39,London,Monitor,222.73,3.0,Bank Transfer,5.0,668.1899999999999
+1060,2023-06-07,C-3486,Female,38,Berlin,Mouse,10.35,1.0,Bank Transfer,3.0,10.35
+1061,2024-02-01,C-5145,Male,26,New York,Monitor,396.93,1.0,Credit Card,4.0,396.93
+1062,2023-08-18,C-8329,Female,20,Singapore,Laptop,1629.3,1.0,Paypal,1.0,2437.5249999999996
+1063,2024-04-02,C-3814,Non-Binary,42,Paris,Headphones,117.86,2.0,Debit Card,5.0,353.58
+1064,2024-01-18,C-1431,Non-Binary,46,Tokyo,Monitor,445.93,1.0,Credit Card,3.0,445.93
+1065,2023-02-15,C-1546,Non-Binary,39,Toronto,Smartphone,503.04,1.0,Credit Card,1.0,503.04
+1066,2024-01-26,C-6640,Male,24,London,Tablet,881.11,1.0,Cash,3.0,881.11
+1068,2023-03-05,C-5114,Non-Binary,35,New York,Laptop,1629.3,1.0,Debit Card,4.0,1780.74
+1069,2024-01-24,C-9334,Male,52,Toronto,Tablet,336.67,2.0,Paypal,5.0,673.34
+1070,2023-08-31,C-5182,Non-Binary,22,Sydney,Laptop,1629.3,3.5,Bank Transfer,4.0,2437.5249999999996
+1071,2024-08-17,C-3909,Male,40,Paris,Smartphone,1406.35,1.0,Credit Card,4.0,1406.35
+1072,2023-05-13,C-2163,Male,40,Toronto,Headphones,290.18,3.0,Bank Transfer,2.0,870.54
+1074,2023-09-17,C-3011,Non-Binary,29,London,Keyboard,42.03,1.0,Paypal,2.0,42.03
+1075,2023-10-07,C-4736,Female,45,Sydney,Monitor,571.27,1.0,Credit Card,1.0,571.27
+1076,2024-05-22,C-2591,Non-Binary,24,New York,Laptop,1629.3,3.5,Bank Transfer,4.0,2437.5249999999996
+1078,2024-08-22,C-6602,Male,39,Berlin,Keyboard,110.61,2.0,Debit Card,4.0,221.22
+1079,2024-09-06,C-3111,Male,41,Singapore,Keyboard,66.73,1.0,Debit Card,4.0,66.73
+1080,2023-06-03,C-6750,Male,41,New York,Headphones,264.11,3.5,Credit Card,5.0,1056.44
+1081,2024-08-31,C-3141,Male,41,Singapore,Smartwatch,253.4,1.0,Debit Card,4.0,253.4
+1082,2024-12-01,C-4818,Non-Binary,41,Sydney,Mouse,59.14,2.0,Cash,4.0,118.28
+1083,2024-01-13,C-2157,Non-Binary,48,Berlin,Mouse,72.3,1.0,Paypal,3.0,72.3
+1084,2023-10-28,C-8155,Male,25,Berlin,Smartwatch,273.48,1.0,Cash,4.0,273.48
+1085,2024-06-07,C-5692,Non-Binary,32,Toronto,Tablet,525.92,1.0,Cash,5.0,525.92
+1086,2024-08-28,C-4568,Female,43,Toronto,Tablet,221.35,1.0,Paypal,4.0,221.35
+1088,2024-04-03,C-3713,Male,35,Berlin,Smartphone,1246.99,1.0,Credit Card,5.0,1246.99
+1089,2024-08-20,C-4364,Male,22,New York,Smartphone,1085.18,1.0,Cash,1.0,1085.18
+1090,2023-10-04,C-9736,Female,35,Berlin,Smartwatch,262.19,1.0,Paypal,4.0,262.19
+1091,2023-07-29,C-9635,Non-Binary,27,Tokyo,Mouse,60.83,3.5,Debit Card,4.0,304.15
+1092,2024-01-27,C-2099,Non-Binary,10,Paris,Laptop,1629.3,1.0,Cash,4.0,2151.82
+1093,2023-04-30,C-2310,Female,37,Tokyo,Smartphone,882.87,1.0,Credit Card,5.0,882.87
+1094,2023-02-08,C-6950,Non-Binary,41,New York,Headphones,140.42,1.0,Cash,4.0,140.42
+1095,2024-07-06,C-2908,Non-Binary,45,Paris,Keyboard,40.34,1.0,Paypal,4.0,40.34
+1096,2023-12-13,C-8120,Non-Binary,56,Sydney,Mouse,56.21,1.0,Cash,2.0,56.21
+1097,2023-05-08,C-2137,Non-Binary,39,Toronto,Monitor,579.69,2.0,Credit Card,4.0,1159.38
+1098,2024-01-31,C-7843,Non-Binary,60,Paris,Tablet,493.72,1.0,Bank Transfer,3.0,493.72
+1099,2023-08-30,C-1919,Female,47,New York,Monitor,310.19,2.0,Paypal,3.0,620.38
+1100,2024-11-12,C-7682,Female,40,Paris,Smartphone,921.59,1.0,Debit Card,4.0,921.59
+1102,2024-01-27,C-5364,Male,31,Berlin,Monitor,329.33,1.0,Bank Transfer,1.0,329.33
+1103,2023-12-26,C-8234,Female,20,Tokyo,Keyboard,102.56,1.0,Cash,4.0,102.56
+1104,2023-03-26,C-2014,Male,52,London,Monitor,376.41,3.0,Debit Card,3.0,1129.23
+1105,2023-02-08,C-7341,Non-Binary,17,Sydney,Laptop,1629.3,1.0,Paypal,4.0,1919.78
+1107,2023-05-08,C-9400,Female,27,Tokyo,Monitor,573.1,1.0,Bank Transfer,4.0,573.1
+1108,2024-01-14,C-2816,Non-Binary,54,New York,Mouse,42.08,1.0,Credit Card,4.0,42.08
+1109,2023-09-13,C-2565,Female,20,Sydney,Tablet,859.03,1.0,Bank Transfer,4.0,859.03
+1110,2024-03-01,C-8493,Male,38,Berlin,Keyboard,29.25,1.0,Bank Transfer,4.0,29.25
+1111,2024-01-21,C-7117,Male,27,Tokyo,Laptop,1629.3,1.0,Cash,4.0,2236.29
+1112,2023-03-04,C-4522,Female,27,Sydney,Monitor,203.17,1.0,Credit Card,4.0,203.17
+1113,2024-10-22,C-7258,Male,45,London,Monitor,433.02,3.0,Paypal,4.0,1299.06
+1114,2024-09-12,C-1864,Non-Binary,44,Sydney,Mouse,29.74,1.0,Debit Card,1.0,29.74
+1116,2024-06-28,C-9193,Female,34,Tokyo,Monitor,317.41,2.0,Debit Card,5.0,634.82
+1118,2024-02-04,C-1324,Non-Binary,32,Berlin,Mouse,62.56,2.0,Paypal,5.0,125.12
+1119,2024-06-26,C-3925,Male,48,London,Headphones,57.84,3.5,Paypal,4.0,231.36
+1120,2023-12-14,C-1823,Female,50,Tokyo,Mouse,32.4,3.0,Cash,2.0,97.2
+1121,2024-08-11,C-1188,Male,35,New York,Laptop,1461.64,1.0,Cash,5.0,1461.64
+1123,2023-05-27,C-1693,Non-Binary,33,Singapore,Tablet,642.29,1.0,Paypal,5.0,642.29
+1124,2024-04-22,C-6732,Female,22,New York,Mouse,57.08,2.0,Paypal,4.0,114.16
+1125,2023-10-28,C-6698,Female,20,Paris,Headphones,243.73,2.0,Debit Card,5.0,487.46
+1126,2023-10-22,C-819,Female,34,Sydney,Mouse,14.03,1.0,Cash,4.0,14.03
+1127,2023-12-04,C-4385,Non-Binary,24,London,Monitor,348.69,3.0,Bank Transfer,1.0,1046.07
+1128,2024-02-28,C-2376,Male,25,Berlin,Smartwatch,142.9,2.0,Cash,5.0,285.8
+1130,2024-06-12,C-1221,Female,37,Singapore,Tablet,250.93,2.0,Debit Card,4.0,501.86
+1131,2024-09-21,C-5017,Female,28,London,Tablet,694.37,1.0,Paypal,1.0,694.37
+1132,2024-08-18,C-8138,Non-Binary,17,New York,Mouse,66.9,3.5,Debit Card,3.0,267.6
+1133,2024-10-29,C-6286,Male,18,Toronto,Mouse,79.02,2.0,Credit Card,2.0,158.04
+1134,2024-04-26,C-9896,Female,26,London,Headphones,239.83,1.0,Bank Transfer,2.0,239.83
+1135,2023-07-11,C-7967,Non-Binary,32,Sydney,Laptop,1521.18,3.5,Cash,2.0,2437.5249999999996
+1136,2023-10-16,C-8193,Female,34,Tokyo,Laptop,819.3,1.0,Paypal,4.0,819.3
+1137,2024-08-04,C-8256,Non-Binary,22,Singapore,Keyboard,27.32,1.0,Paypal,3.0,27.32
+1138,2024-02-10,C-6906,Male,38,New York,Smartphone,1220.65,1.0,Bank Transfer,3.0,1830.975
+1139,2023-04-19,C-8777,Female,25,New York,Headphones,289.79,1.0,Credit Card,3.0,289.79
+1140,2023-09-10,C-7242,Male,43,Singapore,Smartphone,645.96,3.5,Cash,4.0,2437.5249999999996
+1142,2023-01-30,C-2435,Female,37,Tokyo,Keyboard,29.59,1.0,Paypal,3.0,29.59
+1143,2023-08-07,C-4099,Female,35,Singapore,Tablet,878.51,1.0,Bank Transfer,4.0,878.51
+1144,2024-01-13,C-6434,Female,52,Tokyo,Laptop,1572.72,1.0,Bank Transfer,3.0,1572.72
+1145,2024-09-06,C-5826,Female,46,New York,Laptop,1629.3,3.5,Credit Card,3.0,2437.5249999999996
+1146,2023-02-13,C-8346,Non-Binary,61,Sydney,Headphones,104.89,1.0,Paypal,4.0,104.89
+1147,2023-07-30,C-7475,Male,25,London,Laptop,1588.29,1.0,Credit Card,5.0,1588.29
+1148,2023-08-15,C-8466,Non-Binary,25,Toronto,Headphones,293.09,3.5,Paypal,5.0,2437.5249999999996
+1149,2023-04-16,C-4155,Male,36,Sydney,Smartphone,1167.98,1.0,Cash,3.0,1167.98
+1150,2024-04-03,C-8919,Female,46,Sydney,Monitor,458.13,1.0,Cash,3.0,458.13
+1151,2024-10-22,C-3168,Non-Binary,28,New York,Smartphone,1402.02,2.0,Credit Card,4.0,2437.5249999999996
+1152,2023-08-18,C-1285,Non-Binary,19,Tokyo,Smartwatch,379.82,3.0,Paypal,1.0,1139.46
+1153,2023-07-05,C-3200,Non-Binary,56,Singapore,Mouse,13.17,1.0,Cash,1.0,13.17
+1154,2023-10-13,C-9612,Female,49,New York,Headphones,296.56,1.0,Debit Card,5.0,296.56
+1155,2024-07-21,C-1807,Male,29,Sydney,Headphones,190.42,1.0,Credit Card,4.0,190.42
+1156,2023-10-28,C-9148,Non-Binary,33,New York,Smartwatch,224.45,1.0,Credit Card,3.0,224.45
+1157,2024-06-23,C-6812,Female,49,Singapore,Tablet,239.46,3.0,Paypal,5.0,718.38
+1158,2024-08-11,C-673,Male,35,Sydney,Mouse,63.83,3.5,Bank Transfer,3.0,255.32
+1159,2024-07-19,C-6248,Female,35,Berlin,Headphones,259.4,3.5,Debit Card,3.0,2437.5249999999996
+1161,2023-07-11,C-3601,Female,33,Berlin,Keyboard,49.72,1.0,Credit Card,3.0,49.72
+1162,2023-03-18,C-8721,Male,16,London,Monitor,201.1,1.0,Debit Card,3.0,201.1
+1163,2023-02-10,C-2674,Male,50,Tokyo,Tablet,564.22,2.0,Credit Card,4.0,1128.44
+1164,2024-11-14,C-2722,Female,49,Tokyo,Monitor,398.36,1.0,Credit Card,4.0,398.36
+1165,2024-01-14,C-3287,Male,35,Tokyo,Keyboard,133.96,1.0,Credit Card,4.0,133.96
+1166,2023-12-29,C-946,Female,42,New York,Smartphone,1174.49,1.0,Bank Transfer,3.0,1174.49
+1168,2024-09-16,C-5615,Non-Binary,47,Sydney,Mouse,37.46,1.0,Cash,4.0,37.46
+1169,2023-05-13,C-4760,Female,13,Berlin,Keyboard,137.54,1.0,Debit Card,5.0,137.54
+1170,2024-09-29,C-181,Male,53,New York,Laptop,1474.12,1.0,Cash,4.0,1474.12
+1171,2023-03-01,C-1801,Non-Binary,35,Berlin,Tablet,803.65,3.5,Credit Card,2.0,2437.5249999999996
+1172,2023-07-08,C-2499,Female,14,Berlin,Headphones,153.97,3.5,Paypal,5.0,1539.7
+1173,2023-08-23,C-8372,Male,34,London,Headphones,163.01,1.0,Bank Transfer,4.0,163.01
+1174,2023-04-14,C-6336,Female,19,London,Keyboard,29.86,1.0,Bank Transfer,4.0,29.86
+1175,2023-10-30,C-1945,Male,43,Sydney,Smartwatch,138.41,1.0,Cash,3.0,138.41
+1176,2023-03-31,C-6106,Female,39,Singapore,Keyboard,43.64,1.0,Paypal,4.0,43.64
+1177,2024-10-22,C-976,Female,23,New York,Monitor,553.55,1.0,Credit Card,5.0,553.55
+1179,2023-05-07,C-3668,Male,41,New York,Keyboard,41.96,1.0,Credit Card,5.0,41.96
+1180,2023-08-27,C-9169,Non-Binary,33,London,Laptop,1150.77,1.0,Credit Card,3.0,1150.77
+1181,2023-04-27,C-452,Male,22,Singapore,SmrtWatch,45.24,1.0,Credit Card,5.0,45.24
+1182,2024-06-09,C-2508,Male,26,London,Tablet,811.51,3.5,Credit Card,3.0,2437.5249999999996
+1183,2023-11-05,C-5743,Non-Binary,37,Tokyo,Keyboard,27.94,1.0,Cash,5.0,27.94
+1184,2024-08-27,C-9512,Non-Binary,42,Singapore,Laptop,1113.69,1.0,Cash,3.0,1113.69
+1185,2023-12-15,C-3827,Female,44,New York,Tablet,459.33,1.0,Debit Card,3.0,459.33
+1186,2023-11-02,C-8354,Female,16,Sydney,Headphones,154.88,2.0,Credit Card,1.0,309.76
+1188,2023-11-28,C-9981,Non-Binary,41,Paris,Smartphone,962.85,1.0,Bank Transfer,4.0,962.85
+1189,2023-04-05,C-8134,Female,38,Berlin,SmrtWatch,33.93,1.0,Debit Card,5.0,33.93
+1190,2024-11-17,C-6516,Male,15,New York,Smartphone,696.17,1.0,Credit Card,5.0,696.17
+1191,2024-08-15,C-5447,Non-Binary,37,London,Headphones,35.42,1.0,Bank Transfer,4.0,35.42
+1192,2023-04-15,C-7956,Non-Binary,27,Berlin,Tablet,283.83,3.0,Paypal,1.0,851.49
+1193,2024-09-16,C-3435,Male,22,Tokyo,Laptop,1629.3,1.0,Debit Card,3.0,2437.5249999999996
+1194,2023-07-02,C-3969,Female,34,Toronto,Smartphone,495.61,1.0,Bank Transfer,4.0,495.61
+1195,2024-10-18,C-8525,Non-Binary,52,Berlin,Smartwatch,276.05,2.0,Credit Card,3.0,552.1
+1196,2023-07-03,C-5641,Non-Binary,22,Singapore,Smartwatch,185.13,1.0,Bank Transfer,4.0,185.13
+1197,2024-03-26,C-7088,Female,32,New York,Smartwatch,293.78,1.0,Credit Card,2.0,293.78
+1198,2023-09-11,C-2674,Non-Binary,18,Berlin,Monitor,195.8,1.0,Paypal,5.0,195.8
+1200,2023-09-12,C-7484,Non-Binary,27,Berlin,Keyboard,42.54,3.0,Paypal,3.0,127.62
+1201,2023-10-01,C-4473,Female,24,London,Keyboard,30.43,1.0,Bank Transfer,2.0,30.43
+1202,2023-08-08,C-3921,Female,38,Paris,Smartphone,523.24,1.0,Paypal,5.0,523.24
+1203,2023-07-07,C-6133,Female,34,New York,Smartwatch,390.84,3.0,Bank Transfer,5.0,1172.52
+1204,2024-10-12,C-8139,Non-Binary,28,New York,Smartwatch,151.27,1.0,Credit Card,5.0,151.27
+1205,2023-02-22,C-502,Female,44,Sydney,Smartphone,1422.31,1.0,Paypal,1.0,1422.31
+1206,2023-05-12,C-4294,Female,14,Toronto,Headphones,237.76,1.0,Paypal,5.0,237.76
+1207,2023-03-19,C-5808,Non-Binary,41,Tokyo,Headphones,117.39,1.0,Paypal,5.0,117.39
+1208,2024-09-22,C-8985,Female,15,Tokyo,Mouse,18.04,1.0,Paypal,1.0,18.04
+1209,2024-08-10,C-8903,Female,35,Toronto,Tablet,402.04,1.0,Credit Card,3.0,402.04
+1210,2023-10-26,C-2438,Female,34,Paris,Smartphone,985.85,1.0,Debit Card,5.0,985.85
+1211,2024-02-09,C-2693,Female,20,Paris,Monitor,301.47,1.0,Cash,5.0,301.47
+1214,2024-04-26,C-5275,Male,5,Sydney,Mouse,34.42,3.5,Bank Transfer,5.0,137.68
+1215,2024-10-19,C-1033,Female,25,New York,Laptop,1629.3,3.5,Credit Card,2.0,2437.5249999999996
+1216,2024-11-07,C-9133,Female,39,Tokyo,Tablet,856.84,1.0,Paypal,5.0,856.84
+1217,2024-09-29,C-1007,Non-Binary,27,New York,Smartwatch,119.95,2.0,Debit Card,2.0,239.9
+1218,2024-07-01,C-7564,Female,49,New York,Monitor,212.9,2.0,Debit Card,4.0,425.8
+1219,2023-12-24,C-9472,Female,38,New York,Smartwatch,160.49,1.0,Debit Card,3.0,160.49
+1220,2023-01-19,C-5847,Male,39,Singapore,Monitor,449.34,1.0,Bank Transfer,5.0,449.34
+1221,2023-10-17,C-6864,Non-Binary,29,Sydney,Tablet,451.18,3.0,Credit Card,3.0,1353.54
+1223,2024-01-08,C-3746,Female,30,Toronto,Smartphone,908.95,1.0,Bank Transfer,2.0,908.95
+1226,2024-01-19,C-8520,Male,37,Toronto,Smartphone,528.59,3.5,Paypal,4.0,2114.36
+1227,2023-11-14,C-3979,Male,44,London,Monitor,432.47,1.0,Cash,2.0,432.47
+1228,2024-04-06,C-3120,Female,39,Singapore,Smartwatch,286.02,1.0,Paypal,5.0,286.02
+1229,2023-11-05,C-278,Female,30,Tokyo,Mouse,72.57,2.0,Paypal,4.0,145.14
+1230,2024-03-27,C-266,Male,29,London,Tablet,373.94,2.0,Debit Card,2.0,747.88
+1231,2024-03-03,C-5568,Non-Binary,24,New York,Smartphone,436.89,1.0,Credit Card,4.0,436.89
+1232,2024-08-02,C-9408,Female,40,New York,Tablet,439.46,2.0,Debit Card,4.0,878.92
+1234,2023-12-09,C-349,Female,31,Sydney,Monitor,508.78,1.0,Credit Card,3.0,508.78
+1235,2024-05-15,C-215,Female,23,Toronto,Headphones,91.9,2.0,Bank Transfer,3.0,183.8
+1236,2023-12-07,C-1179,Male,45,Berlin,Smartphone,1163.34,1.0,Debit Card,3.0,1163.34
+1237,2023-03-25,C-5145,Male,51,Tokyo,Mouse,27.63,1.0,Cash,3.0,27.63
+1238,2024-08-10,C-8753,Female,13,Berlin,Smartwatch,238.6,3.5,Debit Card,3.0,954.4
+1239,2023-04-16,C-5788,Non-Binary,52,New York,Headphones,71.4,1.0,Bank Transfer,4.0,71.4
+1240,2023-03-01,C-5867,Female,64,Paris,Laptop,830.79,3.0,Debit Card,3.0,2437.5249999999996
+1241,2023-11-29,C-3981,Non-Binary,36,New York,Mouse,75.25,1.0,Debit Card,2.0,75.25
+1242,2023-08-03,C-9827,Male,40,New York,Keyboard,111.94,1.0,Paypal,3.0,111.94
+1243,2023-11-17,C-817,Non-Binary,37,New York,Headphones,185.6,1.0,Credit Card,2.0,185.6
+1244,2023-08-02,C-2916,Female,54,Paris,Monitor,570.47,3.5,Paypal,4.0,2437.5249999999996
+1245,2023-03-13,C-9306,Non-Binary,28,Berlin,Headphones,151.73,1.0,Bank Transfer,4.0,151.73
+1246,2024-03-29,C-6302,Non-Binary,35,New York,Headphones,189.64,1.0,Credit Card,4.0,189.64
+1248,2023-04-03,C-1515,Non-Binary,22,Toronto,Headphones,175.1,3.5,Paypal,4.0,700.4
+1249,2023-11-27,C-5893,Male,15,Tokyo,Laptop,1388.79,1.0,Paypal,5.0,1388.79
+1250,2023-04-17,C-3174,Male,30,Sydney,Keyboard,49.2,1.0,Cash,5.0,49.2
+1251,2024-01-07,C-5818,Female,55,Singapore,Smartphone,554.94,1.0,Credit Card,4.0,554.94
+1252,2023-04-06,C-7513,Male,2,Toronto,Keyboard,138.93,1.0,Debit Card,1.0,138.93
+1253,2024-03-05,C-6848,Male,34,Toronto,Tablet,606.41,1.0,Credit Card,4.0,606.41
+1254,2024-08-26,C-3273,Non-Binary,31,Singapore,Smartphone,493.88,3.5,Cash,4.0,2437.5249999999996
+1255,2023-12-21,C-4642,Male,21,Paris,Headphones,165.59,1.0,Paypal,5.0,165.59
+1256,2024-10-25,C-5214,Female,35,Singapore,Mouse,24.69,3.0,Paypal,3.0,74.07000000000001
+1257,2023-01-10,C-1096,Female,34,London,Smartwatch,161.54,1.0,Debit Card,4.0,161.54
+1260,2024-08-24,C-6664,Non-Binary,3,New York,Mouse,38.05,1.0,Debit Card,4.0,38.05
+1261,2024-03-19,C-2319,Female,48,Berlin,Monitor,219.86,1.0,Bank Transfer,4.0,219.86
+1262,2023-12-12,C-6126,Non-Binary,18,Toronto,Smartwatch,293.2,1.0,Cash,3.0,293.2
+1263,2024-11-25,C-7690,Female,25,Tokyo,Smartphone,427.92,1.0,Paypal,1.0,427.92
+1264,2023-02-14,C-9557,Non-Binary,46,New York,Smartphone,429.81,1.0,Cash,3.0,429.81
+1265,2023-01-04,C-8931,Female,50,Berlin,Tablet,361.75,1.0,Debit Card,5.0,361.75
+1266,2024-12-25,C-7583,Non-Binary,28,Paris,Monitor,443.74,1.0,Debit Card,4.0,443.74
+1267,2024-01-10,C-5799,Female,40,Toronto,Mouse,16.96,1.0,Bank Transfer,2.0,16.96
+1269,2023-07-13,C-6792,Female,40,Berlin,Keyboard,106.85,1.0,Bank Transfer,4.0,106.85
+1270,2023-01-08,C-9646,Male,42,Toronto,Monitor,155.85,1.0,Debit Card,5.0,155.85
+1271,2023-04-11,C-5056,Female,31,New York,Mouse,24.55,1.0,Paypal,4.0,24.55
+1272,2024-06-23,C-1420,Female,38,Toronto,Monitor,339.64,3.0,Cash,3.0,1018.92
+1274,2024-02-13,C-5407,Female,26,London,Smartwatch,277.09,1.0,Credit Card,5.0,277.09
+1275,2023-09-25,C-5872,Female,18,Sydney,Tablet,636.9,1.0,Credit Card,3.0,636.9
+1276,2024-04-12,C-7538,Male,10,Singapore,Headphones,109.51,3.5,Paypal,5.0,438.04
+1277,2023-04-16,C-4630,Male,55,Toronto,Keyboard,119.27,1.0,Paypal,1.0,119.27
+1278,2024-08-18,C-5216,Non-Binary,34,Singapore,Headphones,271.53,2.0,Cash,5.0,543.06
+1279,2024-02-08,C-9265,Female,48,New York,Keyboard,75.28,1.0,Credit Card,5.0,75.28
+1280,2023-01-17,C-7820,Male,38,Toronto,Keyboard,102.35,1.0,Bank Transfer,5.0,153.52499999999998
+1281,2024-02-20,C-808,Non-Binary,14,New York,Headphones,67.63,2.0,Credit Card,3.0,135.26
+1282,2024-07-18,C-5338,Male,35,Tokyo,Laptop,1091.85,1.0,Bank Transfer,3.0,1091.85
+1283,2024-04-05,C-7851,Female,39,Paris,Mouse,11.29,3.5,Paypal,4.0,45.16
+1284,2023-08-04,C-7932,Non-Binary,37,Singapore,Headphones,103.99,1.0,Credit Card,4.0,103.99
+1285,2024-06-08,C-6806,Non-Binary,23,Singapore,Tablet,655.99,2.0,Bank Transfer,5.0,1311.98
+1286,2024-05-25,C-1937,Non-Binary,38,Toronto,Laptop,1629.3,1.0,Credit Card,5.0,1820.88
+1288,2023-10-19,C-9737,Female,12,Paris,Keyboard,87.46,1.0,Credit Card,3.0,87.46
+1289,2024-04-19,C-4175,Female,19,Paris,Tablet,316.4,2.0,Credit Card,3.0,632.8
+1290,2023-12-08,C-6735,Male,37,Berlin,Smartphone,669.88,1.0,Bank Transfer,3.0,669.88
+1292,2024-03-18,C-2870,Male,23,London,Monitor,404.88,1.0,Paypal,5.0,404.88
+1294,2024-06-23,C-8476,Female,24,New York,Smartwatch,109.35,1.0,Cash,2.0,109.35
+1295,2023-10-17,C-7329,Female,43,Sydney,Monitor,417.79,1.0,Cash,2.0,417.79
+1296,2023-09-28,C-4987,Male,65,New York,Keyboard,63.45,2.0,Debit Card,4.0,126.9
+1297,2023-09-08,C-5955,Female,33,New York,Laptop,981.22,1.0,Cash,3.0,981.22
+1299,2023-03-21,C-8994,Male,56,Singapore,Smartwatch,173.92,2.0,Bank Transfer,1.0,347.84
+1300,2024-10-10,C-1978,Male,42,Toronto,Tablet,390.5,1.0,Credit Card,3.0,390.5
+1301,2024-08-25,C-2711,Female,46,Berlin,Monitor,312.44,1.0,Debit Card,3.0,312.44
+1302,2024-01-10,C-6229,Male,34,Tokyo,Keyboard,44.07,1.0,Paypal,4.0,44.07
+1303,2024-02-22,C-2663,Female,42,Sydney,Monitor,542.83,2.0,Debit Card,3.0,1085.66
+1304,2023-02-26,C-8189,Non-Binary,41,New York,Monitor,461.52,2.0,Paypal,4.0,923.04
+1305,2024-09-21,C-4663,Female,47,Berlin,Headphones,97.41,1.0,Credit Card,3.0,97.41
+1307,2023-02-22,C-5320,Female,37,Tokyo,Mouse,74.08,1.0,Paypal,5.0,74.08
+1309,2023-02-15,C-3673,Non-Binary,47,Tokyo,Keyboard,142.75,1.0,Debit Card,3.0,142.75
+1310,2024-11-13,C-6357,Female,35,Paris,Mouse,32.34,2.0,Credit Card,5.0,64.68
+1311,2023-11-06,C-4091,Male,35,New York,Headphones,39.99,1.0,Paypal,4.0,39.99
+1313,2023-01-28,C-3158,Female,31,Toronto,Mouse,33.79,2.0,Credit Card,4.0,67.58
+1314,2024-06-03,C-5367,Male,32,Singapore,Laptop,1629.3,2.0,Bank Transfer,3.0,2437.5249999999996
+1315,2024-10-26,C-819,Non-Binary,29,Berlin,Smartphone,750.63,1.0,Cash,5.0,750.63
+1317,2024-02-20,C-580,Non-Binary,45,Tokyo,Monitor,541.54,1.0,Paypal,1.0,541.54
+1318,2024-01-08,C-4331,Male,35,Berlin,Headphones,283.55,2.0,Bank Transfer,5.0,567.1
+1319,2023-03-19,C-761,Female,47,Toronto,Tablet,898.55,1.0,Paypal,3.0,898.55
+1320,2024-06-28,C-1352,Female,28,New York,Monitor,365.94,1.0,Bank Transfer,1.0,365.94
+1321,2024-12-25,C-1529,Non-Binary,51,Berlin,Tablet,811.57,3.5,Credit Card,5.0,2437.5249999999996
+1322,2024-03-14,C-1691,Non-Binary,29,Paris,Keyboard,74.78,2.0,Paypal,5.0,149.56
+1323,2023-06-24,C-6202,Non-Binary,52,Singapore,Headphones,94.47,1.0,Cash,4.0,141.70499999999998
+1324,2023-05-18,C-6801,Female,18,New York,Smartwatch,188.89,1.0,Credit Card,1.0,188.89
+1325,2024-06-11,C-6412,Non-Binary,23,Toronto,Monitor,168.94,1.0,Paypal,4.0,168.94
+1326,2023-01-24,C-7915,Female,34,London,Monitor,322.95,1.0,Bank Transfer,5.0,322.95
+1327,2024-11-27,C-2019,Female,37,Berlin,Keyboard,48.37,3.5,Paypal,2.0,193.48
+1328,2024-04-30,C-3646,Male,46,Paris,Laptop,1629.3,1.0,Paypal,4.0,2406.04
+1329,2024-02-26,C-7189,Non-Binary,32,Singapore,Smartwatch,284.02,1.0,Debit Card,3.0,284.02
+1330,2023-01-08,C-8769,Male,36,Singapore,Laptop,1629.3,1.0,Credit Card,3.0,1833.15
+1331,2023-11-01,C-4552,Female,40,London,Laptop,1192.14,1.0,Credit Card,5.0,1192.14
+1332,2024-02-24,C-854,Non-Binary,27,Singapore,Headphones,240.49,1.0,Bank Transfer,5.0,240.49
+1333,2023-06-12,C-8649,Non-Binary,28,Paris,Headphones,45.62,3.5,Paypal,5.0,228.1
+1334,2024-12-14,C-1249,Non-Binary,52,New York,Smartwatch,308.81,1.0,Paypal,5.0,308.81
+1335,2023-07-07,C-9861,Non-Binary,28,Sydney,Headphones,250.27,1.0,Bank Transfer,4.0,250.27
+1336,2024-04-11,C-380,Non-Binary,37,Singapore,Smartphone,1052.23,1.0,Cash,3.0,1052.23
+1337,2024-03-18,C-6701,Non-Binary,16,New York,Smartphone,500.64,3.0,Cash,4.0,1501.92
+1338,2024-09-20,C-5529,Male,27,Toronto,Smartphone,1377.62,3.5,Paypal,4.0,2437.5249999999996
+1339,2023-04-17,C-9757,Female,30,London,Tablet,803.49,2.0,Bank Transfer,5.0,1606.98
+1340,2023-11-21,C-7676,Male,42,Toronto,Headphones,53.49,1.0,Paypal,5.0,53.49
+1341,2024-07-08,C-6070,Female,59,London,Headphones,130.63,1.0,Cash,5.0,130.63
+1342,2023-03-05,C-7978,Female,34,Singapore,Tablet,256.73,1.0,Bank Transfer,5.0,256.73
+1344,2023-01-15,C-5323,Female,34,Sydney,Headphones,159.76,1.0,Paypal,4.0,159.76
+1345,2023-04-27,C-5685,Male,49,Toronto,Smartwatch,347.4,1.0,Paypal,5.0,347.4
+1346,2024-12-16,C-5163,Male,43,New York,Laptop,1253.95,3.0,Debit Card,1.0,2437.5249999999996
+1347,2023-02-04,C-3704,Male,57,Sydney,Laptop,1629.3,1.0,Bank Transfer,4.0,2437.5249999999996
+1348,2023-12-20,C-3260,Female,44,Tokyo,Mouse,58.82,1.0,Debit Card,4.0,58.82
+1349,2024-10-04,C-2488,Female,41,London,Tablet,633.03,2.0,Bank Transfer,3.0,1266.06
+1350,2024-05-07,C-8428,Female,32,New York,Mouse,33.46,2.0,Paypal,3.0,66.92
+1351,2024-01-09,C-1655,Non-Binary,36,Paris,Laptop,1073.29,2.0,Cash,3.0,2146.58
+1352,2023-06-15,C-3095,Male,35,Singapore,Mouse,10.45,1.0,Bank Transfer,3.0,10.45
+1353,2023-10-25,C-1784,Female,50,Singapore,Smartphone,1078.62,3.5,Paypal,4.0,2437.5249999999996
+1355,2024-06-10,C-3885,Male,43,Paris,Mouse,64.59,1.0,Paypal,3.0,64.59
+1356,2023-09-22,C-6647,Non-Binary,37,Paris,Smartphone,1459.29,1.0,Debit Card,4.0,1459.29
+1357,2023-03-04,C-3727,Male,53,New York,Keyboard,102.24,3.5,Cash,1.0,408.96
+1358,2024-11-18,C-1138,Female,29,Toronto,Keyboard,59.13,2.0,Paypal,5.0,118.26
+1359,2024-11-19,C-2871,Female,37,Paris,Laptop,914.5,1.0,Credit Card,5.0,914.5
+1360,2023-08-25,C-1805,Female,49,London,Tablet,232.02,3.0,Credit Card,4.0,696.0600000000001
+1361,2023-11-15,C-5241,Non-Binary,16,Berlin,Smartwatch,392.05,3.5,Paypal,3.0,1960.25
+1362,2023-09-13,C-4317,Male,28,Toronto,SmrtWatch,730.78,1.0,Paypal,4.0,730.78
+1364,2024-05-13,C-4218,Non-Binary,53,London,Smartphone,1151.62,1.0,Paypal,1.0,1151.62
+1365,2024-02-13,C-494,Non-Binary,34,Berlin,Smartwatch,182.09,3.5,Bank Transfer,3.0,1820.9
+1366,2024-08-31,C-2937,Male,17,New York,Tablet,314.54,2.0,Debit Card,2.0,629.08
+1368,2024-09-16,C-5585,Non-Binary,37,Paris,Headphones,206.72,1.0,Debit Card,4.0,206.72
+1369,2024-09-23,C-1397,Female,28,Paris,Smartphone,1445.95,1.0,Bank Transfer,2.0,1445.95
+1370,2024-03-10,C-4764,Female,42,Tokyo,Smartwatch,225.92,1.0,Credit Card,2.0,225.92
+1372,2024-07-16,C-5905,Female,34,Singapore,Smartphone,1383.51,1.0,Bank Transfer,3.0,1383.51
+1373,2023-06-17,C-8515,Female,37,Berlin,Monitor,245.9,1.0,Paypal,5.0,245.9
+1374,2024-11-10,C-964,Male,19,Singapore,Laptop,1629.3,1.0,Credit Card,3.0,2269.41
+1375,2023-09-04,C-475,Female,52,New York,Smartwatch,390.46,1.0,Credit Card,5.0,390.46
+1376,2024-10-31,C-753,Male,39,Toronto,Smartwatch,331.28,2.0,Debit Card,5.0,662.56
+1378,2024-08-16,C-2116,Male,37,Tokyo,Laptop,1629.3,1.0,Debit Card,4.0,2154.11
+1379,2024-03-31,C-8292,Female,43,New York,Keyboard,35.25,1.0,Paypal,1.0,35.25
+1380,2024-05-05,C-3557,Non-Binary,26,Singapore,Laptop,1140.89,1.0,Debit Card,3.0,1140.89
+1382,2023-09-17,C-2748,Non-Binary,45,Tokyo,Keyboard,60.35,1.0,Bank Transfer,5.0,60.35
+1383,2023-08-18,C-1953,Non-Binary,27,London,Keyboard,21.51,1.0,Paypal,5.0,21.51
+1384,2023-05-25,C-7861,Female,29,Paris,Keyboard,98.0,1.0,Debit Card,3.0,98.0
+1385,2023-09-03,C-6738,Female,5,Tokyo,Headphones,217.65,3.0,Bank Transfer,3.0,652.95
+1387,2024-11-20,C-9460,Non-Binary,34,Toronto,Tablet,299.75,1.0,Paypal,3.0,299.75
+1388,2023-11-30,C-6144,Female,53,New York,Smartphone,1015.61,1.0,Paypal,5.0,1015.61
+1390,2023-08-27,C-4060,Female,32,New York,Monitor,164.94,1.0,Credit Card,3.0,164.94
+1392,2024-08-03,C-5887,Non-Binary,56,Paris,Mouse,66.04,1.0,Paypal,1.0,66.04
+1393,2024-02-25,C-1735,Non-Binary,42,Sydney,Smartwatch,150.24,1.0,Debit Card,4.0,150.24
+1394,2024-01-23,C-4241,Male,51,New York,Monitor,164.21,3.5,Credit Card,5.0,656.84
+1395,2023-04-08,C-2758,Male,46,Paris,Tablet,236.38,1.0,Debit Card,5.0,236.38
+1396,2023-09-15,C-3467,Female,43,Sydney,Smartwatch,314.23,2.0,Paypal,4.0,628.46
+1398,2024-10-31,C-3264,Non-Binary,50,Tokyo,Tablet,516.62,1.0,Bank Transfer,5.0,516.62
+1399,2023-02-21,C-6320,Male,35,Tokyo,Headphones,172.13,2.0,Paypal,4.0,344.26
+1401,2024-09-15,C-340,Male,29,Berlin,Headphones,293.48,1.0,Paypal,5.0,293.48
+1403,2024-11-19,C-1833,Non-Binary,28,Singapore,Smartwatch,266.61,2.0,Cash,1.0,533.22
+1405,2024-06-15,C-6752,Female,36,Singapore,Monitor,182.49,1.0,Bank Transfer,3.0,182.49
+1406,2024-08-09,C-2431,Male,31,Berlin,Smartwatch,360.48,2.0,Debit Card,4.0,720.96
+1407,2023-02-26,C-7471,Male,14,Tokyo,Tablet,719.89,1.0,Cash,2.0,719.89
+1408,2024-10-13,C-6977,Non-Binary,20,Paris,Smartwatch,396.29,1.0,Paypal,5.0,396.29
+1409,2024-11-09,C-6512,Non-Binary,17,Singapore,Smartphone,1353.73,1.0,Bank Transfer,5.0,1353.73
+1410,2023-06-20,C-732,Non-Binary,55,Sydney,Smartwatch,246.0,3.0,Cash,1.0,738.0
+1411,2023-01-13,C-2286,Female,29,Berlin,Headphones,273.19,1.0,Cash,1.0,273.19
+1412,2024-10-15,C-3846,Female,42,Berlin,Laptop,1629.3,1.0,Credit Card,3.0,2351.02
+1413,2024-03-18,C-6503,Male,16,Singapore,Mouse,53.61,1.0,Debit Card,1.0,53.61
+1414,2023-06-17,C-8231,Male,27,Paris,Laptop,1629.3,3.5,Cash,5.0,2437.5249999999996
+1415,2023-02-17,C-3598,Female,39,Toronto,Laptop,1105.46,1.0,Cash,3.0,1105.46
+1416,2023-10-04,C-3549,Male,34,New York,Smartwatch,174.17,3.0,Cash,4.0,522.51
+1417,2024-01-14,C-1772,Female,49,Sydney,Mouse,41.17,1.0,Paypal,1.0,41.17
+1418,2023-08-02,C-6835,Male,48,Toronto,Mouse,21.45,1.0,Debit Card,3.0,21.45
+1420,2023-09-26,C-5958,Male,19,New York,Monitor,498.06,1.0,Paypal,5.0,498.06
+1421,2024-10-06,C-7486,Female,48,Singapore,Headphones,291.85,1.0,Cash,3.0,291.85
+1422,2023-09-25,C-541,Female,35,Tokyo,Laptop,1372.91,2.0,Paypal,5.0,2437.5249999999996
+1423,2023-06-24,C-1125,Non-Binary,19,Tokyo,Laptop,1532.51,1.0,Debit Card,5.0,1532.51
+1426,2023-08-15,C-441,Female,31,Paris,Monitor,529.88,2.0,Debit Card,5.0,1059.76
+1427,2024-02-04,C-4194,Female,59,New York,Headphones,188.05,3.0,Credit Card,3.0,564.1500000000001
+1428,2024-06-09,C-1131,Non-Binary,31,London,Headphones,102.83,1.0,Paypal,5.0,102.83
+1429,2024-10-30,C-2813,Female,35,New York,Smartphone,984.29,3.5,Credit Card,1.0,2437.5249999999996
+1430,2024-10-23,C-7019,Non-Binary,43,Paris,Monitor,292.27,1.0,Debit Card,5.0,292.27
+1431,2024-08-26,C-7333,Non-Binary,34,Tokyo,Headphones,41.22,1.0,Paypal,2.0,41.22
+1432,2023-04-29,C-5295,Non-Binary,45,New York,Monitor,354.63,1.0,Credit Card,5.0,354.63
+1434,2023-01-05,C-4612,Male,48,Toronto,Tablet,341.3,1.0,Cash,5.0,341.3
+1435,2023-06-16,C-1945,Female,22,Tokyo,Smartwatch,390.97,1.0,Debit Card,2.0,390.97
+1437,2024-11-19,C-4381,Female,57,Singapore,Monitor,461.68,2.0,Cash,4.0,923.36
+1438,2024-05-14,C-9403,Female,36,Toronto,Tablet,548.02,1.0,Debit Card,4.0,548.02
+1440,2023-05-26,C-1420,Non-Binary,48,Paris,Smartwatch,164.7,1.0,Cash,5.0,164.7
+1442,2024-08-20,C-1453,Female,38,Tokyo,Keyboard,149.92,1.0,Cash,4.0,149.92
+1443,2023-11-10,C-2781,Female,25,Paris,Smartphone,1474.89,1.0,Paypal,5.0,1474.89
+1446,2023-12-03,C-8500,Female,49,Singapore,Smartwatch,342.35,2.0,Debit Card,2.0,684.7
+1448,2023-02-26,C-8482,Male,33,Paris,Smartwatch,263.35,1.0,Bank Transfer,1.0,263.35
+1449,2024-12-30,C-3301,Non-Binary,36,New York,Laptop,1351.8,1.0,Paypal,4.0,1351.8
+1450,2023-09-28,C-3994,Non-Binary,54,Sydney,Laptop,1460.55,1.0,Cash,1.0,1460.55
+1451,2024-05-10,C-2713,Non-Binary,24,Tokyo,Headphones,94.14,1.0,Debit Card,3.0,94.14
+1452,2024-06-17,C-5185,Female,54,Sydney,Monitor,428.77,1.0,Cash,3.0,428.77
+1453,2024-01-29,C-6191,Male,47,Toronto,Monitor,320.9,3.0,Debit Card,2.0,962.7
+1454,2024-02-26,C-2928,Male,5,Paris,Tablet,217.95,1.0,Credit Card,3.0,217.95
+1455,2023-07-31,C-2406,Non-Binary,62,Sydney,Smartwatch,214.06,1.0,Credit Card,4.0,214.06
+1456,2024-10-31,C-229,Male,47,Tokyo,Smartwatch,282.37,2.0,Cash,3.0,564.74
+1457,2024-06-02,C-7353,Male,64,New York,Smartphone,1294.28,2.0,Debit Card,5.0,2437.5249999999996
+1459,2024-07-24,C-7828,Non-Binary,38,Paris,Laptop,902.45,3.5,Debit Card,3.0,2437.5249999999996
+1460,2024-07-08,C-205,Female,25,London,Monitor,368.64,1.0,Cash,4.0,368.64
+1461,2023-04-23,C-2942,Non-Binary,31,Toronto,Keyboard,57.03,1.0,Bank Transfer,3.0,57.03
+1462,2024-03-15,C-930,Female,37,Sydney,Keyboard,60.47,1.0,Credit Card,4.0,60.47
+1463,2024-06-11,C-5831,Male,51,Toronto,Keyboard,113.1,1.0,Bank Transfer,3.0,113.1
+1465,2023-06-16,C-2569,Male,32,Toronto,Mouse,22.7,1.0,Bank Transfer,5.0,22.7
+1467,2023-03-14,C-326,Female,38,Paris,Laptop,1629.3,1.0,Bank Transfer,5.0,2436.98
+1468,2024-06-21,C-993,Female,37,Paris,Mouse,13.04,1.0,Paypal,3.0,13.04
+1469,2023-06-18,C-8367,Male,51,Toronto,Monitor,578.13,1.0,Bank Transfer,5.0,578.13
+1470,2023-06-22,C-4672,Male,35,Toronto,Smartwatch,168.42,1.0,Debit Card,5.0,252.63
+1471,2023-02-22,C-5963,Female,35,Berlin,Smartwatch,283.29,1.0,Debit Card,1.0,283.29
+1472,2024-03-16,C-4651,Female,20,London,Headphones,240.74,1.0,Paypal,4.0,240.74
+1473,2023-09-26,C-3615,Male,26,Singapore,Smartwatch,346.78,1.0,Credit Card,5.0,346.78
+1474,2023-09-04,C-9910,Female,26,London,Smartphone,1086.25,1.0,Bank Transfer,5.0,1086.25
+1476,2023-03-31,C-9718,Female,42,Sydney,Smartwatch,165.02,1.0,Bank Transfer,4.0,165.02
+1477,2023-08-27,C-7066,Female,39,Tokyo,Monitor,160.64,1.0,Credit Card,3.0,160.64
+1478,2023-07-30,C-1978,Male,46,London,Tablet,362.36,1.0,Cash,4.0,362.36
+1479,2024-05-01,C-6175,Male,61,London,Mouse,51.61,1.0,Cash,2.0,51.61
+1480,2024-07-17,C-408,Female,25,Toronto,Smartwatch,228.46,2.0,Credit Card,4.0,456.92
+1481,2024-09-09,C-115,Female,54,New York,Keyboard,110.02,3.5,Cash,4.0,1100.2
+1482,2024-10-06,C-2319,Female,41,Berlin,Headphones,104.02,1.0,Paypal,3.0,104.02
+1483,2023-07-07,C-2614,Non-Binary,54,Tokyo,Laptop,945.62,3.0,Credit Card,5.0,2437.5249999999996
+1484,2024-05-03,C-2823,Male,28,Berlin,Monitor,252.0,1.0,Debit Card,1.0,252.0
+1485,2024-01-06,C-3089,Male,22,Sydney,Tablet,248.6,1.0,Debit Card,4.0,248.6
+1486,2024-11-03,C-3129,Non-Binary,37,Paris,Smartphone,1368.09,1.0,Cash,4.0,1368.09
+1488,2023-04-29,C-937,Male,49,Sydney,Laptop,1629.3,1.0,Cash,5.0,2437.5249999999996
+1489,2024-10-15,C-9969,Female,20,Berlin,Headphones,180.6,2.0,Bank Transfer,4.0,361.2
+1490,2024-10-02,C-3368,Non-Binary,26,New York,Headphones,181.82,3.5,Credit Card,4.0,909.1
+1491,2023-08-19,C-6164,Non-Binary,34,London,Mouse,22.27,1.0,Paypal,3.0,22.27
+1492,2023-07-23,C-8386,Male,37,Sydney,Headphones,56.1,1.0,Credit Card,3.0,56.1
+1493,2023-04-02,C-1232,Female,18,Sydney,Laptop,1629.3,1.0,Paypal,5.0,2085.48
+1494,2024-06-18,C-9929,Non-Binary,48,New York,Smartwatch,378.15,1.0,Credit Card,3.0,378.15
+1495,2023-02-22,C-8126,Male,42,Paris,Keyboard,71.91,1.0,Paypal,4.0,71.91
+1496,2024-08-19,C-3333,Male,49,New York,Mouse,46.47,1.0,Cash,4.0,46.47
+1497,2023-04-28,C-7157,Female,36,New York,Laptop,951.51,2.0,Bank Transfer,5.0,1903.02
+1500,2024-09-07,C-3425,Female,25,London,Keyboard,31.39,3.5,Paypal,4.0,125.56
+1501,2024-07-31,C-825,Male,19,London,Smartphone,1009.18,1.0,Paypal,1.0,1009.18
+1502,2024-04-25,C-413,Female,21,Paris,Laptop,1629.3,1.0,Debit Card,5.0,1821.01
+1503,2023-06-03,C-3230,Male,9,Singapore,Monitor,563.73,1.0,Bank Transfer,4.0,563.73
+1504,2023-03-15,C-8717,Non-Binary,35,Sydney,Laptop,1447.06,3.0,Bank Transfer,3.0,2437.5249999999996
+1505,2023-10-23,C-1233,Male,33,Tokyo,Smartphone,1354.86,2.0,Bank Transfer,2.0,2437.5249999999996
+1506,2024-11-23,C-1753,Female,26,Berlin,Laptop,937.56,1.0,Credit Card,4.0,937.56
+1507,2024-09-10,C-4719,Male,46,Sydney,Monitor,228.09,1.0,Debit Card,5.0,228.09
+1508,2024-06-14,C-1160,Male,35,New York,Monitor,438.44,2.0,Debit Card,1.0,876.88
+1509,2023-01-07,C-2193,Female,34,London,Smartphone,545.78,3.0,Debit Card,4.0,1637.34
+1510,2024-12-08,C-7947,Female,34,Paris,Laptop,1629.3,2.0,Debit Card,4.0,2437.5249999999996
+1511,2024-12-19,C-8225,Female,44,New York,Smartwatch,152.45,1.0,Cash,5.0,152.45
+1512,2024-11-10,C-6386,Female,22,Berlin,Keyboard,67.78,1.0,Credit Card,5.0,67.78
+1513,2023-02-04,C-8109,Female,31,Singapore,Headphones,36.97,1.0,Credit Card,3.0,36.97
+1515,2024-02-11,C-8785,Female,41,Paris,Headphones,114.19,1.0,Debit Card,4.0,114.19
+1517,2024-06-06,C-2483,Female,33,Toronto,Headphones,197.29,1.0,Bank Transfer,2.0,197.29
+1518,2023-07-06,C-1196,Non-Binary,32,Berlin,Tablet,240.71,3.5,Paypal,5.0,2407.1
+1519,2023-04-15,C-1389,Non-Binary,52,Paris,Headphones,45.6,1.0,Credit Card,5.0,45.6
+1520,2024-01-05,C-3219,Non-Binary,27,Tokyo,Smartphone,1161.38,1.0,Cash,4.0,1161.38
+1521,2023-04-12,C-3960,Non-Binary,31,Berlin,Laptop,1629.3,3.5,Paypal,4.0,2437.5249999999996
+1522,2024-06-14,C-586,Female,40,London,Keyboard,59.81,1.0,Paypal,5.0,59.81
+1523,2024-03-09,C-3744,Female,49,Tokyo,Smartwatch,258.11,1.0,Paypal,4.0,258.11
+1524,2024-03-31,C-6189,Non-Binary,18,Singapore,Laptop,1425.19,1.0,Paypal,4.0,1425.19
+1525,2023-06-02,C-1286,Male,32,Berlin,Smartphone,1310.29,2.0,Cash,4.0,2437.5249999999996
+1526,2023-12-06,C-4886,Non-Binary,28,Berlin,Monitor,158.64,1.0,Paypal,5.0,158.64
+1527,2024-09-05,C-4282,Non-Binary,3,New York,Monitor,492.13,1.0,Bank Transfer,1.0,492.13
+1529,2023-11-22,C-6525,Non-Binary,37,Paris,Smartwatch,392.76,2.0,Bank Transfer,4.0,785.52
+1530,2023-09-19,C-7620,Female,34,Berlin,Smartwatch,132.92,1.0,Debit Card,5.0,132.92
+1531,2023-11-12,C-2807,Female,41,Paris,Headphones,152.68,2.0,Paypal,2.0,305.36
+1533,2023-10-09,C-6707,Non-Binary,23,London,Headphones,229.09,1.0,Paypal,4.0,229.09
+1534,2024-06-03,C-8706,Female,18,Toronto,Smartwatch,237.83,2.0,Cash,4.0,475.66
+1535,2023-02-12,C-8419,Female,15,Berlin,Tablet,824.46,3.5,Bank Transfer,3.0,2437.5249999999996
+1536,2023-09-24,C-4291,Non-Binary,26,Toronto,Keyboard,109.46,1.0,Credit Card,3.0,109.46
+1537,2024-05-13,C-5917,Non-Binary,47,Toronto,Smartwatch,176.4,2.0,Paypal,3.0,352.8
+1539,2023-01-22,C-7211,Non-Binary,27,London,Tablet,645.67,1.0,Paypal,2.0,645.67
+1540,2023-12-05,C-9568,Female,35,Toronto,Keyboard,39.52,2.0,Paypal,4.0,79.04
+1543,2023-12-12,C-3593,Female,37,London,Keyboard,144.35,2.0,Cash,4.0,288.7
+1544,2023-05-15,C-5741,Female,18,New York,Laptop,1394.5,2.0,Paypal,3.0,2437.5249999999996
+1545,2024-09-09,C-3892,Female,23,Tokyo,Laptop,1629.3,1.0,Debit Card,3.0,1924.33
+1546,2023-01-13,C-4541,Non-Binary,49,New York,Tablet,385.53,1.0,Debit Card,5.0,385.53
+1547,2023-05-16,C-2493,Female,43,New York,Monitor,186.98,3.5,Bank Transfer,5.0,934.9
+1548,2023-12-27,C-4791,Male,46,London,Keyboard,101.21,1.0,Debit Card,4.0,101.21
+1549,2023-07-06,C-9428,Non-Binary,25,Sydney,Keyboard,1629.3,1.0,Debit Card,5.0,2437.5249999999996
+1550,2023-06-26,C-9761,Male,50,Sydney,Tablet,650.73,1.0,Credit Card,1.0,650.73
+1551,2024-11-25,C-1005,Male,41,Paris,Smartphone,446.15,3.5,Cash,4.0,2230.75
+1552,2023-11-29,C-9683,Non-Binary,27,Tokyo,Keyboard,147.4,1.0,Debit Card,3.0,147.4
+1554,2024-10-04,C-3524,Female,41,London,Laptop,1017.76,1.0,Bank Transfer,3.0,1017.76
+1555,2023-07-10,C-1820,Female,47,Sydney,Laptop,1629.3,1.0,Bank Transfer,2.0,2377.74
+1556,2024-04-09,C-5517,Female,22,New York,Headphones,148.64,1.0,Bank Transfer,3.0,148.64
+1557,2023-02-26,C-6671,Non-Binary,11,Sydney,Keyboard,142.6,1.0,Paypal,4.0,142.6
+1558,2023-04-10,C-8966,Male,32,Sydney,Laptop,1629.3,1.0,Bank Transfer,5.0,2307.77
+1559,2023-05-24,C-7782,Female,31,Sydney,Tablet,400.13,2.0,Credit Card,4.0,800.26
+1561,2024-10-21,C-1846,Male,38,New York,Smartphone,1326.2,2.0,Bank Transfer,3.0,2437.5249999999996
+1562,2023-04-23,C-9868,Female,42,Tokyo,Monitor,229.84,1.0,Cash,2.0,229.84
+1563,2024-08-15,C-526,Male,49,Berlin,Tablet,889.27,3.5,Bank Transfer,5.0,2437.5249999999996
+1564,2023-01-24,C-2036,Non-Binary,39,Paris,Smartphone,1299.56,1.0,Paypal,4.0,1299.56
+1565,2023-11-29,C-6789,Female,27,Tokyo,Laptop,1629.3,2.0,Credit Card,5.0,2437.5249999999996
+1566,2023-05-25,C-9265,Male,38,Paris,Headphones,189.39,1.0,Cash,1.0,189.39
+1569,2023-10-14,C-6572,Female,39,Singapore,Monitor,222.03,1.0,Debit Card,5.0,222.03
+1570,2023-01-19,C-1639,Male,32,Tokyo,Mouse,66.0,1.0,Cash,3.0,66.0
+1571,2024-07-13,C-9517,Non-Binary,24,Paris,Headphones,179.87,2.0,Paypal,5.0,359.74
+1572,2024-09-30,C-9630,Male,20,Berlin,Keyboard,66.2,2.0,Cash,3.0,132.4
+1573,2023-08-21,C-9915,Male,40,Berlin,Keyboard,92.05,1.0,Paypal,4.0,92.05
+1574,2023-01-18,C-2084,Female,25,Berlin,Keyboard,144.55,1.0,Bank Transfer,5.0,144.55
+1575,2023-01-06,C-2022,Male,42,London,Monitor,297.12,1.0,Cash,5.0,297.12
+1576,2023-09-08,C-9440,Male,43,New York,Smartphone,1495.97,1.0,Bank Transfer,3.0,1495.97
+1577,2023-01-06,C-7135,Female,30,Singapore,Smartphone,893.47,2.0,Credit Card,1.0,1786.94
+1578,2024-12-21,C-8859,Male,37,New York,Keyboard,70.9,1.0,Cash,5.0,70.9
+1579,2023-06-27,C-5595,Female,46,Toronto,Monitor,463.03,1.0,Cash,3.0,463.03
+1581,2023-12-04,C-6395,Male,50,New York,Smartphone,1047.02,1.0,Cash,4.0,1047.02
+1582,2024-12-02,C-1113,Female,28,New York,Keyboard,95.4,1.0,Paypal,4.0,95.4
+1584,2023-08-07,C-3573,Female,47,Berlin,Mouse,28.89,2.0,Paypal,3.0,57.78
+1585,2024-05-19,C-8129,Non-Binary,42,Tokyo,Laptop,1629.3,1.0,Debit Card,5.0,1647.03
+1586,2023-05-02,C-5403,Female,32,Berlin,Tablet,749.43,2.0,Bank Transfer,4.0,1498.86
+1587,2024-11-03,C-3780,Female,29,London,Keyboard,122.52,1.0,Cash,2.0,122.52
+1588,2024-12-07,C-4037,Female,21,Toronto,Keyboard,62.67,1.0,Debit Card,1.0,62.67
+1589,2023-02-21,C-7998,Female,32,Tokyo,Mouse,16.2,1.0,Debit Card,4.0,16.2
+1591,2024-11-26,C-7233,Male,42,London,Smartphone,1106.82,1.0,Cash,3.0,1106.82
+1592,2024-05-25,C-8300,Female,49,Tokyo,Tablet,282.84,1.0,Cash,1.0,424.26
+1593,2024-11-29,C-6810,Non-Binary,41,Sydney,Smartwatch,351.94,1.0,Bank Transfer,4.0,351.94
+1594,2023-10-05,C-3532,Male,57,Singapore,Keyboard,43.98,1.0,Paypal,2.0,43.98
+1595,2023-01-28,C-8727,Male,53,London,Headphones,120.32,1.0,Credit Card,1.0,120.32
+1596,2023-10-01,C-4151,Male,36,Toronto,Monitor,284.43,3.5,Bank Transfer,4.0,1137.72
+1597,2023-11-17,C-2749,Male,13,Paris,Laptop,1240.8,1.0,Credit Card,1.0,1240.8
+1598,2023-12-14,C-5113,Non-Binary,41,New York,Keyboard,79.56,1.0,Paypal,3.0,79.56
+1599,2023-04-22,C-6486,Female,28,London,Smartphone,546.83,1.0,Cash,5.0,546.83
+1600,2023-06-01,C-3112,Female,34,Toronto,Smartphone,880.54,2.0,Bank Transfer,5.0,1761.08
+1603,2023-11-09,C-4369,Female,38,Toronto,Smartphone,1452.28,1.0,Paypal,2.0,2178.42
+1604,2024-05-14,C-6956,Non-Binary,33,Berlin,Laptop,1244.9,1.0,Paypal,5.0,1244.9
+1605,2024-04-07,C-6650,Non-Binary,32,Paris,Smartwatch,371.88,1.0,Bank Transfer,1.0,371.88
+1606,2024-03-03,C-6640,Male,45,Paris,Tablet,514.82,2.0,Paypal,4.0,1029.64
+1609,2023-09-28,C-6705,Male,45,Toronto,Smartphone,424.01,1.0,Credit Card,4.0,424.01
+1610,2023-05-22,C-8927,Non-Binary,35,Sydney,Smartphone,1430.5,1.0,Credit Card,4.0,1430.5
+1611,2023-06-06,C-3288,Male,41,Paris,Smartphone,860.67,1.0,Bank Transfer,5.0,860.67
+1613,2024-01-14,C-3216,Female,19,London,Headphones,155.26,3.5,Credit Card,4.0,776.3
+1614,2024-02-11,C-5335,Male,15,Paris,Tablet,279.87,1.0,Credit Card,2.0,279.87
+1615,2023-06-22,C-9660,Female,48,New York,Laptop,1183.04,1.0,Cash,4.0,1183.04
+1617,2024-06-26,C-4273,Female,48,Singapore,Laptop,1629.3,2.0,Paypal,4.0,2437.5249999999996
+1618,2023-07-08,C-1568,Male,37,New York,Smartphone,997.89,1.0,Paypal,1.0,997.89
+1620,2023-06-08,C-3615,Female,40,Paris,Smartwatch,238.69,1.0,Credit Card,2.0,238.69
+1622,2024-12-12,C-9362,Male,35,New York,Keyboard,124.83,1.0,Debit Card,2.0,124.83
+1623,2023-11-01,C-7762,Non-Binary,26,Toronto,Headphones,44.03,2.0,Credit Card,5.0,88.06
+1624,2024-12-11,C-7001,Non-Binary,27,Tokyo,Tablet,315.29,1.0,Cash,4.0,315.29
+1625,2023-09-10,C-8823,Male,25,Paris,Smartphone,1232.43,1.0,Bank Transfer,4.0,1232.43
+1626,2024-02-19,C-7047,Non-Binary,38,Toronto,Smartwatch,363.87,3.0,Cash,3.0,1091.61
+1627,2023-12-25,C-9137,Male,31,Tokyo,Keyboard,51.04,1.0,Paypal,1.0,51.04
+1628,2023-05-12,C-5026,Male,45,London,Headphones,175.45,1.0,Paypal,4.0,175.45
+1629,2024-05-25,C-8513,Female,34,Berlin,Smartphone,516.02,1.0,Credit Card,3.0,516.02
+1630,2023-08-31,C-3149,Female,29,New York,Smartwatch,332.68,3.5,Cash,4.0,1663.4
+1631,2023-06-29,C-3714,Non-Binary,48,Singapore,Mouse,24.26,1.0,Paypal,5.0,24.26
+1632,2023-07-07,C-533,Female,46,Berlin,Monitor,409.92,1.0,Bank Transfer,3.0,409.92
+1633,2024-01-10,C-4247,Female,26,Paris,Monitor,509.06,1.0,Bank Transfer,4.0,509.06
+1634,2023-05-10,C-6210,Male,35,Paris,Laptop,1068.52,1.0,Paypal,5.0,1602.78
+1635,2024-11-01,C-4105,Female,45,Paris,Headphones,244.18,1.0,Credit Card,2.0,244.18
+1636,2024-12-06,C-5806,Non-Binary,30,London,Tablet,328.96,3.0,Debit Card,2.0,986.88
+1637,2023-08-03,C-2004,Female,30,Toronto,Keyboard,105.06,1.0,Cash,5.0,105.06
+1638,2023-11-12,C-1253,Female,59,Tokyo,Smartwatch,1629.3,3.0,Debit Card,4.0,2437.5249999999996
+1639,2023-06-15,C-7636,Non-Binary,22,Berlin,Headphones,246.97,1.0,Debit Card,3.0,246.97
+1640,2024-12-16,C-6750,Female,34,New York,Smartphone,1482.52,1.0,Debit Card,4.0,1482.52
+1641,2023-02-20,C-9385,Male,40,Singapore,Smartwatch,290.4,1.0,Debit Card,5.0,290.4
+1642,2024-03-10,C-5940,Female,32,Berlin,Keyboard,41.09,1.0,Debit Card,3.0,41.09
+1644,2023-04-27,C-9519,Non-Binary,41,London,Keyboard,30.32,2.0,Debit Card,3.0,60.64
+1645,2024-05-11,C-4681,Female,38,Sydney,Mouse,23.12,3.0,Bank Transfer,5.0,69.36
+1646,2024-08-21,C-8204,Male,37,Singapore,Tablet,697.17,1.0,Debit Card,3.0,697.17
+1647,2024-05-21,C-3208,Female,50,Tokyo,Keyboard,81.25,2.0,Bank Transfer,3.0,162.5
+1648,2023-11-06,C-1575,Female,9,Berlin,Laptop,1629.3,2.0,Credit Card,3.0,2437.5249999999996
+1649,2023-11-17,C-4932,Male,27,Paris,Smartwatch,200.56,1.0,Cash,4.0,200.56
+1650,2024-08-30,C-3550,Male,45,Tokyo,SmrtWatch,57.17,1.0,Paypal,2.0,57.17
+1651,2023-02-06,C-4017,Non-Binary,41,Toronto,Mouse,19.94,1.0,Debit Card,2.0,29.910000000000004
+1653,2023-09-28,C-5078,Female,31,Berlin,Tablet,446.66,2.0,Bank Transfer,3.0,893.32
+1654,2023-04-28,C-9697,Non-Binary,39,Paris,Tablet,643.9,1.0,Paypal,5.0,643.9
+1655,2023-11-28,C-5601,Non-Binary,34,Singapore,Smartwatch,302.85,1.0,Paypal,5.0,302.85
+1656,2023-03-24,C-5820,Female,29,Sydney,Keyboard,42.73,3.0,Credit Card,5.0,128.19
+1657,2024-02-02,C-7458,Non-Binary,37,Tokyo,Laptop,1186.21,2.0,Paypal,5.0,2372.42
+1658,2024-05-19,C-3566,Non-Binary,45,Berlin,Headphones,217.42,1.0,Bank Transfer,4.0,217.42
+1659,2023-09-14,C-9047,Non-Binary,18,Toronto,Smartwatch,191.59,1.0,Paypal,3.0,191.59
+1660,2023-09-09,C-8033,Male,41,Paris,Keyboard,133.26,2.0,Debit Card,5.0,266.52
+1662,2024-07-07,C-2473,Male,39,Toronto,Laptop,1629.3,1.0,Cash,3.0,1940.24
+1663,2024-05-29,C-9828,Male,32,Tokyo,Mouse,17.77,1.0,Paypal,2.0,17.77
+1664,2023-08-15,C-5031,Non-Binary,48,Sydney,Headphones,177.6,1.0,Paypal,5.0,177.6
+1665,2023-12-07,C-8338,Non-Binary,33,London,Tablet,883.76,1.0,Credit Card,5.0,883.76
+1666,2023-10-07,C-4675,Non-Binary,28,Tokyo,Keyboard,116.19,3.5,Credit Card,5.0,464.76
+1669,2023-01-14,C-317,Non-Binary,31,London,Tablet,212.6,3.5,Debit Card,3.0,1594.5
+1670,2023-10-11,C-972,Male,23,Sydney,Tablet,780.58,1.0,Credit Card,4.0,780.58
+1671,2024-11-21,C-6285,Female,48,Berlin,Headphones,265.64,1.0,Bank Transfer,5.0,265.64
+1672,2023-08-27,C-5023,Male,39,Singapore,Laptop,964.11,1.0,Paypal,4.0,964.11
+1673,2023-05-29,C-5801,Male,57,London,Tablet,208.68,1.0,Paypal,2.0,208.68
+1674,2024-12-24,C-4869,Female,44,Sydney,Smartphone,726.96,1.0,Paypal,5.0,726.96
+1675,2024-05-29,C-8257,Non-Binary,15,New York,Tablet,720.24,1.0,Bank Transfer,1.0,720.24
+1676,2023-01-21,C-3586,Non-Binary,46,Singapore,Smartphone,1381.53,1.0,Paypal,4.0,1381.53
+1677,2023-09-26,C-5009,Male,55,London,Laptop,934.25,1.0,Debit Card,4.0,934.25
+1679,2023-05-06,C-1062,Female,48,Paris,Smartphone,1058.88,1.0,Bank Transfer,2.0,1058.88
+1680,2024-12-12,C-2804,Non-Binary,46,Singapore,Laptop,1629.3,1.0,Credit Card,1.0,2294.26
+1681,2023-08-05,C-9078,Female,41,New York,Laptop,1629.3,1.0,Cash,1.0,1679.66
+1683,2024-08-04,C-5459,Male,13,Toronto,Smartwatch,367.76,1.0,Paypal,4.0,367.76
+1685,2024-05-26,C-117,Female,50,Sydney,Smartphone,661.18,1.0,Paypal,3.0,661.18
+1687,2023-05-28,C-5459,Female,24,Paris,Laptop,1629.3,1.0,Debit Card,5.0,2415.9
+1689,2023-07-01,C-7519,Female,55,New York,Headphones,98.69,1.0,Credit Card,4.0,98.69
+1690,2023-12-16,C-5853,Female,27,Toronto,Smartwatch,142.01,1.0,Paypal,4.0,142.01
+1692,2023-11-19,C-2149,Non-Binary,18,Tokyo,Tablet,627.55,1.0,Bank Transfer,3.0,627.55
+1693,2023-03-18,C-9208,Female,34,New York,Monitor,243.15,1.0,Bank Transfer,5.0,243.15
+1694,2024-06-18,C-7242,Female,31,Singapore,Keyboard,124.34,1.0,Debit Card,4.0,124.34
+1695,2024-01-01,C-1458,Non-Binary,25,London,Mouse,45.89,1.0,Credit Card,4.0,45.89
+1696,2023-02-18,C-4355,Non-Binary,33,Paris,Headphones,53.52,1.0,Debit Card,5.0,53.52
+1697,2024-03-07,C-7179,Non-Binary,43,Singapore,Laptop,993.53,1.0,Credit Card,5.0,1490.295
+1698,2024-01-09,C-9411,Female,47,Sydney,Monitor,372.1,2.0,Cash,5.0,744.2
+1699,2023-09-17,C-5185,Non-Binary,35,New York,Smartphone,1492.1,1.0,Paypal,5.0,1492.1
+1700,2024-01-21,C-4219,Non-Binary,26,Berlin,Headphones,143.89,1.0,Debit Card,5.0,143.89
+1701,2023-11-29,C-3051,Female,16,Sydney,Mouse,73.53,2.0,Debit Card,4.0,147.06
+1702,2023-06-28,C-8611,Non-Binary,16,New York,Headphones,252.42,3.5,Debit Card,5.0,1262.1
+1703,2024-03-26,C-8459,Non-Binary,45,Sydney,Tablet,774.84,1.0,Credit Card,2.0,774.84
+1704,2024-01-16,C-282,Female,29,Tokyo,Mouse,28.03,1.0,Debit Card,4.0,28.03
+1705,2023-05-27,C-8524,Female,36,Tokyo,Mouse,52.27,1.0,Credit Card,4.0,52.27
+1706,2024-12-11,C-9789,Non-Binary,31,London,Keyboard,79.31,1.0,Debit Card,5.0,79.31
+1707,2023-07-27,C-7524,Non-Binary,24,London,Tablet,284.72,1.0,Debit Card,5.0,284.72
+1708,2023-11-08,C-3460,Female,33,New York,Headphones,51.65,1.0,Debit Card,5.0,51.65
+1709,2024-09-09,C-3597,Male,35,London,Laptop,1629.3,1.0,Cash,3.0,2400.93
+1710,2023-08-10,C-4255,Male,21,Tokyo,Keyboard,97.18,1.0,Paypal,3.0,97.18
+1711,2023-11-17,C-334,Non-Binary,51,New York,Tablet,645.27,3.5,Credit Card,3.0,2437.5249999999996
+1712,2023-06-10,C-5062,Male,46,London,Mouse,60.68,1.0,Paypal,4.0,60.68
+1713,2024-04-19,C-2706,Non-Binary,38,Singapore,Smartphone,1392.7,1.0,Cash,5.0,1392.7
+1714,2023-01-26,C-4434,Female,21,Toronto,Smartwatch,103.51,1.0,Bank Transfer,5.0,103.51
+1715,2023-08-03,C-8745,Female,36,Berlin,Keyboard,58.36,1.0,Bank Transfer,5.0,58.36
+1716,2024-01-18,C-3708,Non-Binary,28,Berlin,Monitor,205.35,1.0,Bank Transfer,3.0,205.35
+1717,2024-02-19,C-8725,Female,36,Toronto,Smartwatch,202.95,2.0,Credit Card,4.0,405.9
+1718,2024-03-29,C-7525,Female,46,Tokyo,Keyboard,110.02,1.0,Paypal,4.0,110.02
+1719,2024-12-29,C-889,Female,40,New York,Smartphone,1140.26,1.0,Credit Card,4.0,1140.26
+1720,2024-07-24,C-2573,Female,47,London,Laptop,1558.91,2.0,Cash,4.0,2437.5249999999996
+1721,2024-07-30,C-2932,Female,26,Toronto,Mouse,67.57,3.0,Paypal,3.0,202.71
+1722,2023-10-30,C-7848,Female,33,Tokyo,Mouse,32.32,1.0,Credit Card,4.0,32.32
+1724,2023-03-09,C-4488,Non-Binary,47,Toronto,Headphones,131.13,1.0,Bank Transfer,3.0,131.13
+1725,2024-11-17,C-261,Female,48,London,Laptop,1531.9,1.0,Bank Transfer,4.0,1531.9
+1726,2024-12-03,C-6015,Non-Binary,31,Sydney,Tablet,308.12,1.0,Bank Transfer,5.0,308.12
+1729,2023-04-06,C-442,Male,32,Toronto,Headphones,212.82,1.0,Cash,5.0,212.82
+1730,2024-11-27,C-2027,Male,20,London,Smartphone,1486.84,1.0,Bank Transfer,1.0,1486.84
+1731,2023-11-13,C-3923,Female,27,Sydney,Mouse,58.18,1.0,Bank Transfer,3.0,58.18
+1732,2024-06-17,C-2030,Non-Binary,29,London,Smartwatch,251.64,3.5,Debit Card,4.0,1258.1999999999998
+1734,2023-10-15,C-7333,Non-Binary,33,New York,Mouse,21.2,1.0,Debit Card,4.0,21.2
+1735,2023-06-17,C-7231,Female,30,London,Smartphone,1231.83,1.0,Cash,4.0,1231.83
+1736,2024-06-13,C-5434,Male,41,Sydney,Mouse,18.13,3.5,Cash,4.0,90.65
+1737,2024-09-01,C-8033,Non-Binary,31,Toronto,Tablet,419.78,3.0,Paypal,5.0,1259.34
+1738,2024-11-26,C-3967,Female,49,Toronto,Laptop,1629.3,1.0,Paypal,5.0,2437.5249999999996
+1740,2024-02-16,C-2198,Male,16,Tokyo,Tablet,578.99,1.0,Paypal,5.0,578.99
+1741,2024-05-08,C-2946,Male,21,New York,Tablet,587.6,1.0,Debit Card,5.0,587.6
+1744,2024-08-07,C-9122,Female,32,Paris,Mouse,28.92,3.5,Cash,2.0,144.60000000000002
+1745,2024-10-20,C-4051,Male,35,Berlin,Smartphone,1013.48,1.0,Debit Card,5.0,1013.48
+1746,2023-01-27,C-4612,Non-Binary,35,Paris,Keyboard,77.73,1.0,Bank Transfer,4.0,77.73
+1747,2024-02-18,C-3487,Male,37,London,Laptop,1629.3,1.0,Bank Transfer,5.0,1631.13
+1748,2023-08-01,C-7477,Non-Binary,48,Singapore,Smartwatch,286.2,1.0,Paypal,4.0,286.2
+1749,2023-06-11,C-8371,Male,58,Berlin,Monitor,327.81,1.0,Bank Transfer,3.0,327.81
+1751,2024-07-08,C-580,Female,16,Singapore,Smartwatch,372.84,2.0,Cash,4.0,745.68
+1752,2024-05-25,C-4557,Non-Binary,48,New York,Laptop,1022.11,2.0,Paypal,2.0,2044.22
+1753,2024-10-15,C-8604,Male,36,Sydney,Laptop,1012.2,2.0,Debit Card,4.0,2024.4
+1754,2024-10-12,C-2377,Non-Binary,42,Toronto,Headphones,284.89,1.0,Bank Transfer,2.0,284.89
+1755,2024-10-25,C-2507,Female,30,London,Laptop,1586.55,3.5,Cash,4.0,2437.5249999999996
+1757,2024-04-17,C-6054,Non-Binary,34,Tokyo,Mouse,30.0,1.0,Cash,2.0,30.0
+1759,2023-11-08,C-136,Male,35,London,Smartwatch,273.18,3.0,Paypal,5.0,819.54
+1760,2024-08-17,C-8786,Non-Binary,34,Toronto,Smartphone,1310.27,2.0,Cash,5.0,2437.5249999999996
+1761,2024-02-07,C-6052,Female,38,New York,Laptop,1629.3,3.5,Cash,4.0,2437.5249999999996
+1763,2024-08-26,C-2235,Non-Binary,33,New York,Headphones,258.68,3.0,Bank Transfer,4.0,776.04
+1764,2023-12-11,C-4035,Non-Binary,42,Paris,Smartwatch,287.98,3.5,Debit Card,2.0,1151.92
+1766,2024-09-24,C-1685,Non-Binary,48,Singapore,Mouse,58.48,1.0,Bank Transfer,4.0,58.48
+1768,2023-05-23,C-1912,Male,27,Tokyo,Tablet,347.49,3.5,Debit Card,2.0,1737.45
+1769,2023-08-14,C-8226,Non-Binary,45,Singapore,Monitor,153.99,3.5,Paypal,4.0,1539.9
+1771,2023-03-22,C-7362,Male,41,Toronto,Smartwatch,321.36,2.0,Cash,4.0,642.72
+1772,2023-05-15,C-2714,Female,27,Berlin,Tablet,727.4,2.0,Cash,4.0,1454.8
+1773,2023-04-04,C-7933,Female,40,Toronto,Laptop,1629.3,2.0,Bank Transfer,5.0,2437.5249999999996
+1774,2024-01-24,C-1035,Non-Binary,39,New York,Smartphone,497.47,1.0,Cash,3.0,497.47
+1775,2024-07-09,C-1263,Female,47,Paris,Keyboard,30.09,1.0,Debit Card,3.0,30.09
+1776,2023-09-03,C-1480,Non-Binary,26,Tokyo,Monitor,306.97,1.0,Cash,1.0,306.97
+1777,2024-05-25,C-8426,Female,33,Sydney,Laptop,1629.3,3.5,Debit Card,4.0,2437.5249999999996
+1779,2024-05-01,C-3109,Female,37,Sydney,Monitor,507.53,2.0,Paypal,2.0,1015.06
+1780,2024-05-17,C-7378,Male,15,Singapore,Smartwatch,169.72,1.0,Paypal,4.0,169.72
+1781,2023-09-16,C-3330,Non-Binary,25,Sydney,Smartphone,1283.83,3.5,Debit Card,4.0,2437.5249999999996
+1782,2023-05-06,C-8909,Non-Binary,44,Toronto,Keyboard,61.79,1.0,Bank Transfer,2.0,61.79
+1783,2023-09-10,C-2062,Non-Binary,32,Singapore,Monitor,251.71,1.0,Paypal,3.0,251.71
+1784,2023-12-13,C-1164,Female,35,Singapore,Headphones,126.61,1.0,Paypal,3.0,126.61
+1785,2023-05-18,C-8131,Non-Binary,38,New York,Monitor,205.31,3.0,Credit Card,4.0,615.9300000000001
+1786,2024-01-07,C-1378,Non-Binary,35,Singapore,Laptop,1629.3,1.0,Cash,3.0,1795.97
+1787,2024-08-28,C-4079,Non-Binary,37,Singapore,Keyboard,29.33,1.0,Paypal,4.0,29.33
+1788,2024-09-24,C-1635,Female,44,London,Mouse,67.58,2.0,Credit Card,2.0,135.16
+1789,2024-06-28,C-5526,Non-Binary,23,New York,Smartphone,1007.75,1.0,Paypal,4.0,1007.75
+1790,2024-02-19,C-7146,Male,39,Tokyo,Mouse,29.0,1.0,Credit Card,3.0,29.0
+1791,2024-09-11,C-7876,Non-Binary,28,Toronto,Keyboard,56.96,1.0,Credit Card,3.0,56.96
+1792,2024-04-20,C-9462,Female,28,Sydney,Laptop,1629.3,1.0,Credit Card,5.0,2072.7
+1794,2023-01-17,C-9894,Female,31,Paris,Monitor,527.7,1.0,Debit Card,5.0,527.7
+1795,2024-06-19,C-9270,Female,36,Berlin,Mouse,27.28,2.0,Cash,4.0,54.56
+1796,2024-04-22,C-1106,Female,27,Sydney,Mouse,35.22,1.0,Bank Transfer,3.0,52.83
+1797,2023-09-07,C-802,Non-Binary,31,Sydney,Headphones,257.53,1.0,Cash,5.0,257.53
+1798,2023-12-09,C-2866,Female,38,New York,Monitor,345.22,3.5,Paypal,5.0,1380.88
+1800,2023-01-07,C-9788,Male,38,Sydney,Mouse,44.57,1.0,Paypal,5.0,44.57
+1801,2024-05-24,C-2881,Female,28,Sydney,Laptop,1629.3,2.0,Credit Card,3.0,2437.5249999999996
+1802,2024-05-08,C-8426,Female,46,Sydney,Smartwatch,389.81,2.0,Bank Transfer,4.0,779.62
+1803,2024-10-12,C-951,Male,49,Singapore,Monitor,577.85,2.0,Paypal,4.0,1155.7
+1804,2024-05-02,C-2401,Male,27,New York,Headphones,241.09,1.0,Credit Card,1.0,241.09
+1805,2023-01-20,C-6894,Female,31,Singapore,Tablet,233.73,1.0,Bank Transfer,5.0,233.73
+1806,2024-10-13,C-5423,Female,35,Tokyo,Mouse,40.29,1.0,Paypal,3.0,40.29
+1807,2024-10-28,C-2552,Female,42,Tokyo,Mouse,24.62,1.0,Cash,5.0,24.62
+1808,2024-07-29,C-3829,Female,28,Toronto,Monitor,495.41,1.0,Paypal,1.0,495.41
+1809,2024-04-07,C-7696,Male,33,New York,Mouse,67.55,3.0,Debit Card,4.0,202.65
+1810,2023-11-06,C-4754,Non-Binary,42,Paris,Mouse,43.06,3.0,Debit Card,3.0,129.18
+1811,2024-07-25,C-5223,Non-Binary,21,Berlin,Keyboard,48.05,1.0,Credit Card,5.0,48.05
+1812,2023-07-28,C-5327,Non-Binary,16,New York,Mouse,19.56,1.0,Credit Card,2.0,29.34
+1814,2023-11-28,C-6042,Non-Binary,20,New York,Keyboard,112.72,1.0,Bank Transfer,4.0,112.72
+1815,2024-02-12,C-2657,Female,54,New York,Smartphone,1379.24,1.0,Cash,3.0,1379.24
+1816,2023-08-31,C-8036,Non-Binary,28,Singapore,Keyboard,34.5,1.0,Paypal,1.0,34.5
+1817,2024-05-25,C-4201,Non-Binary,33,New York,Smartwatch,180.28,2.0,Credit Card,2.0,360.56
+1818,2023-05-08,C-3701,Female,32,Tokyo,Keyboard,84.07,1.0,Bank Transfer,5.0,84.07
+1820,2024-08-25,C-8472,Female,34,Tokyo,Keyboard,145.25,1.0,Debit Card,4.0,145.25
+1821,2023-07-12,C-126,Female,31,Berlin,Smartwatch,303.26,1.0,Cash,1.0,303.26
+1822,2023-05-12,C-3048,Female,43,Singapore,Mouse,46.49,3.5,Bank Transfer,5.0,232.45
+1823,2024-05-31,C-5321,Female,43,Paris,Laptop,1013.44,1.0,Bank Transfer,5.0,1013.44
+1824,2024-06-17,C-3731,Female,43,New York,Tablet,284.15,1.0,Bank Transfer,3.0,284.15
+1825,2024-05-24,C-1365,Female,42,Paris,Headphones,34.74,1.0,Cash,2.0,34.74
+1826,2024-02-05,C-180,Non-Binary,36,Toronto,Tablet,443.67,1.0,Paypal,5.0,443.67
+1827,2023-07-07,C-7132,Male,53,Paris,Smartphone,401.49,1.0,Paypal,5.0,401.49
+1828,2024-01-05,C-1087,Non-Binary,36,Sydney,Tablet,792.94,1.0,Bank Transfer,5.0,792.94
+1829,2023-04-08,C-235,Non-Binary,35,Tokyo,SmrtWatch,554.35,2.0,Credit Card,5.0,1108.7
+1830,2023-06-28,C-4003,Male,32,Paris,Monitor,329.1,1.0,Bank Transfer,4.0,329.1
+1831,2023-11-15,C-8416,Female,52,Paris,Laptop,911.68,1.0,Paypal,5.0,911.68
+1832,2024-02-07,C-7690,Male,33,Paris,Laptop,1629.3,1.0,Paypal,1.0,2070.66
+1833,2023-09-06,C-6237,Male,15,Berlin,Smartwatch,117.35,3.5,Paypal,4.0,586.75
+1834,2024-09-30,C-479,Male,35,Sydney,Laptop,1629.3,1.0,Credit Card,4.0,2436.71
+1835,2024-03-13,C-1960,Male,37,New York,Monitor,314.56,1.0,Debit Card,1.0,314.56
+1836,2023-07-14,C-6971,Male,30,London,Laptop,1629.3,2.0,Credit Card,5.0,2437.5249999999996
+1837,2023-11-27,C-9992,Female,31,Paris,Mouse,50.48,1.0,Bank Transfer,2.0,50.48
+1838,2023-11-29,C-6908,Male,40,Berlin,Smartphone,826.98,1.0,Debit Card,3.0,826.98
+1839,2023-10-28,C-5209,Female,48,London,Keyboard,53.79,1.0,Bank Transfer,3.0,53.79
+1840,2024-07-06,C-6168,Non-Binary,32,New York,Tablet,528.99,3.0,Cash,5.0,1586.97
+1841,2024-01-02,C-1336,Female,40,London,Tablet,695.4,1.0,Cash,4.0,695.4
+1842,2024-06-23,C-7152,Male,24,Sydney,Smartwatch,140.28,3.5,Credit Card,3.0,701.4
+1843,2024-09-16,C-3638,Male,60,London,Headphones,173.01,1.0,Debit Card,5.0,173.01
+1844,2023-09-23,C-5838,Female,59,Berlin,Keyboard,29.91,3.5,Debit Card,2.0,2437.5249999999996
+1846,2023-12-25,C-6708,Non-Binary,8,New York,Monitor,169.75,1.0,Cash,4.0,169.75
+1847,2023-06-06,C-4428,Female,53,Toronto,Smartwatch,233.66,1.0,Debit Card,4.0,233.66
+1848,2024-08-25,C-1043,Non-Binary,29,London,Smartphone,1456.69,1.0,Credit Card,5.0,1456.69
+1849,2024-05-04,C-4059,Female,42,Tokyo,Tablet,866.0,3.5,Debit Card,5.0,2437.5249999999996
+1851,2024-02-13,C-3077,Female,40,Singapore,Monitor,182.89,1.0,Debit Card,2.0,274.335
+1852,2024-02-09,C-8345,Female,40,London,Smartwatch,327.19,1.0,Cash,5.0,327.19
+1853,2023-03-29,C-1091,Non-Binary,35,Toronto,Monitor,364.61,2.0,Bank Transfer,4.0,729.22
+1854,2023-01-17,C-3042,Female,43,Toronto,Smartwatch,299.98,1.0,Debit Card,5.0,299.98
+1855,2023-03-04,C-1231,Non-Binary,19,London,Keyboard,93.46,2.0,Credit Card,5.0,186.92
+1856,2023-06-05,C-7197,Non-Binary,31,London,Keyboard,21.18,1.0,Paypal,4.0,31.77
+1857,2024-05-26,C-6406,Female,34,New York,Smartwatch,377.86,1.0,Bank Transfer,4.0,377.86
+1858,2023-06-12,C-8877,Female,19,Sydney,Mouse,32.52,2.0,Cash,5.0,65.04
+1859,2024-02-19,C-9951,Female,42,Berlin,Laptop,1629.3,1.0,Debit Card,4.0,2039.06
+1860,2023-03-27,C-990,Female,29,Toronto,Headphones,159.84,1.0,Debit Card,5.0,159.84
+1862,2024-11-14,C-537,Non-Binary,43,London,Keyboard,149.12,1.0,Debit Card,5.0,149.12
+1863,2023-02-03,C-3304,Male,32,Berlin,Monitor,492.45,1.0,Paypal,5.0,492.45
+1864,2024-07-29,C-4548,Male,52,Sydney,Keyboard,139.4,3.5,Cash,4.0,697.0
+1865,2024-04-06,C-7088,Male,35,Sydney,Laptop,1629.3,1.0,Paypal,1.0,1781.11
+1868,2023-05-07,C-9129,Female,35,Toronto,Monitor,249.38,1.0,Paypal,3.0,249.38
+1870,2024-09-27,C-6644,Non-Binary,30,Paris,Smartphone,1445.51,1.0,Debit Card,2.0,1445.51
+1871,2023-10-29,C-1026,Non-Binary,43,Berlin,Mouse,40.56,1.0,Bank Transfer,2.0,40.56
+1872,2024-09-10,C-267,Non-Binary,54,New York,Tablet,397.75,1.0,Debit Card,5.0,397.75
+1873,2024-05-24,C-3757,Male,36,Paris,Mouse,72.59,3.5,Credit Card,3.0,290.36
+1874,2023-01-13,C-9212,Non-Binary,32,New York,Laptop,1629.3,1.0,Credit Card,4.0,2126.62
+1875,2024-12-07,C-6922,Male,46,Berlin,Laptop,1629.3,1.0,Bank Transfer,5.0,1645.82
+1877,2024-01-13,C-6480,Non-Binary,39,Sydney,Headphones,85.91,1.0,Debit Card,4.0,85.91
+1878,2023-10-17,C-5567,Male,3,Tokyo,Monitor,514.9,2.0,Debit Card,3.0,1029.8
+1879,2023-12-24,C-2861,Female,37,New York,Smartphone,765.41,1.0,Debit Card,4.0,765.41
+1881,2023-12-26,C-7284,Non-Binary,49,Tokyo,Monitor,392.59,1.0,Paypal,5.0,392.59
+1882,2023-12-12,C-7647,Female,28,New York,Monitor,207.54,2.0,Debit Card,5.0,415.08
+1884,2024-05-02,C-4925,Female,26,Toronto,Keyboard,146.5,1.0,Debit Card,5.0,146.5
+1885,2024-12-02,C-2979,Female,35,Sydney,Mouse,31.29,1.0,Debit Card,4.0,31.29
+1886,2024-08-20,C-5182,Female,43,Sydney,Mouse,61.93,2.0,Bank Transfer,4.0,123.86
+1887,2023-05-15,C-6564,Non-Binary,21,New York,Monitor,340.18,1.0,Paypal,4.0,340.18
+1888,2023-09-21,C-5050,Male,49,Berlin,Laptop,1629.3,1.0,Cash,3.0,2188.53
+1889,2024-01-09,C-2436,Non-Binary,23,Sydney,Mouse,35.97,3.5,Paypal,1.0,143.88
+1890,2024-09-12,C-5471,Male,27,Paris,Keyboard,96.78,1.0,Paypal,3.0,96.78
+1891,2023-08-18,C-8834,Non-Binary,52,Toronto,Laptop,933.37,1.0,Debit Card,1.0,933.37
+1893,2023-12-04,C-5306,Non-Binary,41,Sydney,Smartwatch,385.67,1.0,Bank Transfer,4.0,385.67
+1894,2024-11-07,C-3093,Female,42,London,SmrtWatch,726.22,2.0,Cash,2.0,1452.44
+1895,2024-05-23,C-3530,Male,16,Singapore,Smartphone,1234.91,1.0,Debit Card,5.0,1234.91
+1896,2024-11-05,C-3702,Male,58,Sydney,Smartphone,806.21,3.5,Paypal,4.0,2437.5249999999996
+1898,2023-10-20,C-9569,Male,31,London,Keyboard,139.73,1.0,Bank Transfer,5.0,139.73
+1899,2023-11-19,C-7345,Male,56,New York,Smartwatch,318.69,3.5,Cash,5.0,2437.5249999999996
+1900,2023-12-31,C-1195,Non-Binary,45,London,Laptop,1131.91,1.0,Paypal,5.0,1131.91
+1901,2023-02-07,C-6622,Male,27,Tokyo,Tablet,1629.3,3.5,Credit Card,4.0,2437.5249999999996
+1903,2024-01-06,C-3196,Non-Binary,44,Tokyo,Smartphone,1441.8,1.0,Credit Card,5.0,1441.8
+1904,2024-09-07,C-197,Male,21,Paris,Headphones,242.28,2.0,Debit Card,1.0,484.56
+1905,2024-02-18,C-6625,Male,30,Berlin,Mouse,36.9,1.0,Bank Transfer,4.0,36.9
+1906,2024-07-29,C-7447,Non-Binary,16,Singapore,Laptop,1629.3,2.0,Cash,4.0,2437.5249999999996
+1907,2023-02-26,C-4719,Female,30,New York,Headphones,177.54,3.5,Cash,1.0,887.6999999999999
+1908,2024-11-26,C-9202,Female,35,Toronto,Keyboard,113.4,3.0,Cash,4.0,340.20000000000005
+1909,2023-10-12,C-1064,Female,27,Toronto,Monitor,230.67,2.0,Paypal,5.0,461.34
+1910,2024-09-20,C-9192,Female,9,Tokyo,Headphones,65.56,3.0,Credit Card,5.0,196.68
+1911,2024-04-24,C-2116,Male,48,Sydney,Headphones,72.46,1.0,Paypal,2.0,72.46
+1913,2024-07-15,C-9367,Non-Binary,30,Toronto,Keyboard,52.56,1.0,Paypal,3.0,52.56
+1914,2024-05-20,C-8063,Female,49,Paris,Smartwatch,371.83,1.0,Bank Transfer,3.0,371.83
+1915,2023-10-15,C-4395,Female,38,London,Keyboard,107.62,1.0,Credit Card,4.0,107.62
+1916,2023-10-13,C-3677,Male,13,Paris,Monitor,288.05,1.0,Credit Card,4.0,288.05
+1918,2024-10-05,C-4199,Non-Binary,27,New York,Laptop,916.2,2.0,Credit Card,4.0,1832.4
+1920,2024-03-19,C-156,Female,21,Sydney,Headphones,45.28,1.0,Bank Transfer,5.0,45.28
+1921,2024-01-31,C-6689,Male,49,London,Mouse,76.11,1.0,Paypal,1.0,76.11
+1923,2024-02-08,C-7689,Male,52,London,Smartwatch,325.28,1.0,Credit Card,4.0,325.28
+1924,2023-08-10,C-3054,Male,23,Tokyo,Keyboard,76.16,3.5,Cash,1.0,761.5999999999999
+1925,2024-07-26,C-7458,Non-Binary,23,Singapore,Keyboard,28.78,1.0,Paypal,1.0,28.78
+1926,2024-05-10,C-8866,Female,32,Toronto,Tablet,716.52,2.0,Credit Card,3.0,2149.56
+1927,2023-07-26,C-9096,Male,23,Berlin,Tablet,495.91,1.0,Paypal,4.0,495.91
+1928,2024-09-19,C-5684,Non-Binary,17,Singapore,Tablet,343.73,1.0,Cash,5.0,343.73
+1930,2023-09-29,C-9901,Male,37,Toronto,Laptop,1629.3,1.0,Debit Card,2.0,1826.18
+1931,2023-05-22,C-7776,Male,35,Berlin,Monitor,184.01,3.5,Credit Card,4.0,920.05
+1932,2024-10-28,C-763,Male,28,Berlin,Laptop,1629.3,1.0,Credit Card,4.0,1818.38
+1933,2024-04-04,C-3192,Male,31,Sydney,Laptop,1629.3,1.0,Paypal,2.0,1902.46
+1934,2023-08-27,C-3347,Female,44,London,SmrtWatch,1629.3,1.0,Credit Card,4.0,2001.27
+1935,2024-03-11,C-9400,Male,21,New York,Monitor,290.81,1.0,Debit Card,4.0,290.81
+1936,2024-05-23,C-9401,Non-Binary,47,Berlin,Smartphone,1441.41,1.0,Paypal,1.0,1441.41
+1937,2024-07-27,C-9991,Male,38,New York,Headphones,71.8,3.5,Paypal,4.0,287.2
+1938,2023-03-19,C-2479,Female,41,New York,Laptop,1144.48,1.0,Bank Transfer,5.0,1144.48
+1939,2024-04-24,C-6437,Male,39,New York,Smartphone,1171.25,1.0,Bank Transfer,4.0,1171.25
+1941,2023-12-28,C-9198,Female,34,London,Mouse,41.52,3.5,Cash,4.0,207.6
+1942,2024-05-28,C-1251,Female,48,Singapore,Headphones,80.91,1.0,Credit Card,3.0,80.91
+1943,2023-08-03,C-432,Non-Binary,30,Singapore,Laptop,1629.3,1.0,Credit Card,3.0,2437.5249999999996
+1944,2024-03-12,C-3794,Male,34,Sydney,Headphones,55.01,2.0,Paypal,4.0,110.02
+1945,2024-10-31,C-4537,Non-Binary,32,Paris,Laptop,1629.3,1.0,Paypal,4.0,2354.73
+1946,2023-05-24,C-1898,Female,29,New York,SmrtWatch,1195.79,1.0,Debit Card,5.0,1195.79
+1947,2023-03-26,C-7538,Non-Binary,15,London,Monitor,415.25,1.0,Debit Card,4.0,415.25
+1948,2023-02-07,C-3176,Non-Binary,19,Sydney,Headphones,222.79,1.0,Debit Card,4.0,222.79
+1949,2024-05-16,C-2454,Female,43,London,Tablet,339.49,3.0,Debit Card,1.0,1018.47
+1950,2023-09-16,C-818,Female,25,Paris,Tablet,389.56,1.0,Bank Transfer,4.0,389.56
+1951,2023-02-26,C-7615,Female,26,London,Laptop,906.29,1.0,Paypal,1.0,906.29
+1952,2024-05-15,C-9708,Female,43,London,Monitor,452.79,1.0,Cash,1.0,452.79
+1953,2023-07-29,C-5616,Male,52,London,Tablet,866.04,2.0,Credit Card,5.0,1732.08
+1954,2024-10-31,C-9285,Male,40,Sydney,Keyboard,141.25,1.0,Debit Card,5.0,141.25
+1956,2024-11-22,C-1936,Female,45,Sydney,Smartphone,973.59,1.0,Cash,4.0,973.59
+1957,2024-12-13,C-3449,Female,45,New York,Tablet,459.78,3.5,Credit Card,3.0,1839.12
+1958,2024-08-03,C-6518,Female,47,Toronto,Headphones,102.59,1.0,Paypal,5.0,102.59
+1959,2023-11-16,C-5676,Female,63,London,Headphones,271.74,1.0,Cash,5.0,271.74
+1960,2023-07-19,C-4765,Male,32,Toronto,Smartwatch,289.07,1.0,Paypal,1.0,289.07
+1961,2023-11-27,C-4882,Female,52,Berlin,Mouse,59.38,1.0,Debit Card,5.0,59.38
+1962,2024-05-30,C-3091,Female,58,Singapore,Headphones,282.8,1.0,Debit Card,4.0,282.8
+1963,2023-10-25,C-2709,Male,25,Tokyo,Smartphone,1307.22,1.0,Bank Transfer,2.0,1307.22
+1964,2023-04-29,C-6503,Male,30,Tokyo,Tablet,410.73,1.0,Debit Card,4.0,410.73
+1965,2024-04-13,C-2015,Female,34,Paris,Laptop,895.5,1.0,Bank Transfer,3.0,895.5
+1966,2024-02-17,C-6293,Male,29,London,Smartwatch,296.55,1.0,Cash,3.0,296.55
+1967,2023-07-06,C-9354,Male,52,London,Keyboard,40.73,1.0,Paypal,1.0,40.73
+1968,2024-04-09,C-9500,Non-Binary,44,Singapore,Smartwatch,344.24,1.0,Bank Transfer,4.0,344.24
+1970,2024-04-13,C-4155,Non-Binary,21,Singapore,Smartwatch,254.5,1.0,Bank Transfer,1.0,254.5
+1971,2023-03-19,C-8792,Non-Binary,25,New York,Mouse,34.98,1.0,Cash,3.0,34.98
+1972,2023-05-07,C-5627,Non-Binary,40,Paris,Smartwatch,192.34,3.5,Paypal,2.0,769.36
+1973,2024-09-28,C-3973,Non-Binary,41,Tokyo,Mouse,76.7,1.0,Debit Card,5.0,76.7
+1974,2023-08-05,C-3198,Non-Binary,36,Toronto,Laptop,1629.3,3.0,Debit Card,5.0,2437.5249999999996
+1975,2024-12-14,C-8220,Male,8,Sydney,Tablet,271.8,1.0,Paypal,5.0,271.8
+1976,2023-04-09,C-8158,Non-Binary,37,London,Smartwatch,158.16,3.0,Cash,3.0,474.48
+1977,2023-05-23,C-1157,Non-Binary,70,Toronto,Keyboard,108.0,2.0,Cash,4.0,216.0
+1978,2024-09-25,C-6096,Female,40,New York,Keyboard,77.1,1.0,Credit Card,5.0,77.1
+1979,2023-11-25,C-5117,Female,42,Sydney,Monitor,222.16,1.0,Credit Card,1.0,222.16
+1980,2023-02-23,C-4499,Non-Binary,41,Berlin,Smartwatch,168.88,1.0,Cash,5.0,168.88
+1981,2024-11-18,C-9653,Male,23,New York,Laptop,1080.98,1.0,Paypal,3.0,1080.98
+1982,2024-02-09,C-169,Female,46,Paris,Keyboard,86.94,1.0,Cash,4.0,86.94
+1983,2024-02-19,C-7380,Female,46,New York,Keyboard,30.86,1.0,Bank Transfer,5.0,30.86
+1985,2023-02-11,C-6926,Female,19,New York,Monitor,383.65,1.0,Bank Transfer,1.0,383.65
+1986,2024-05-04,C-9914,Male,18,Toronto,Smartwatch,165.87,3.5,Credit Card,5.0,829.35
+1987,2024-05-12,C-934,Male,28,New York,Smartphone,1077.93,1.0,Paypal,5.0,1077.93
+1988,2023-02-12,C-9989,Male,15,Sydney,Headphones,176.04,1.0,Credit Card,1.0,176.04
+1989,2023-07-14,C-3176,Non-Binary,12,Berlin,Smartwatch,310.64,1.0,Paypal,1.0,310.64
+1991,2024-02-07,C-991,Female,35,Toronto,Mouse,47.28,1.0,Bank Transfer,4.0,47.28
+1992,2024-06-27,C-4452,Non-Binary,23,Toronto,Mouse,33.6,1.0,Bank Transfer,4.0,33.6
+1993,2024-04-12,C-4135,Male,38,Berlin,Keyboard,109.97,1.0,Cash,4.0,109.97
+1994,2024-04-29,C-8271,Non-Binary,45,London,Smartphone,624.75,1.0,Bank Transfer,5.0,624.75
+1995,2024-06-26,C-3166,Female,32,Sydney,Mouse,39.35,1.0,Bank Transfer,5.0,39.35
+1996,2023-03-30,C-5722,Non-Binary,66,London,Mouse,53.99,1.0,Paypal,5.0,53.99
+1997,2023-11-02,C-3617,Non-Binary,21,Toronto,Keyboard,52.93,1.0,Paypal,4.0,52.93
+1998,2023-04-17,C-2319,Non-Binary,35,London,Laptop,1629.3,2.0,Bank Transfer,4.0,2437.5249999999996
+1999,2024-03-11,C-7197,Female,56,Paris,Mouse,69.03,1.0,Credit Card,4.0,69.03
+2000,2023-04-05,C-9428,Male,48,New York,Laptop,1567.2,1.0,Debit Card,2.0,1567.2
+2001,2024-12-09,C-6710,Female,27,Tokyo,Monitor,534.74,3.0,Cash,3.0,1604.22
+2002,2023-01-19,C-4572,Female,25,Tokyo,Monitor,324.52,2.0,Bank Transfer,5.0,649.04
+2003,2023-10-26,C-9818,Female,34,Singapore,Headphones,273.48,1.0,Bank Transfer,4.0,273.48
+2004,2024-04-26,C-406,Non-Binary,45,Tokyo,Smartwatch,390.42,1.0,Paypal,4.0,390.42
+2005,2023-07-02,C-7997,Non-Binary,8,Berlin,Keyboard,104.28,1.0,Bank Transfer,1.0,104.28
+2006,2023-12-30,C-4569,Female,49,Toronto,Headphones,147.04,3.5,Credit Card,3.0,1470.4
+2007,2024-12-21,C-8514,Female,29,Berlin,Headphones,180.95,1.0,Bank Transfer,4.0,180.95
+2009,2023-03-29,C-8105,Male,20,Tokyo,Mouse,35.87,1.0,Credit Card,4.0,35.87
+2010,2023-04-06,C-1808,Female,45,New York,Smartphone,1179.64,1.0,Debit Card,4.0,1179.64
+2011,2023-05-15,C-2490,Female,50,Sydney,Mouse,25.24,1.0,Debit Card,1.0,25.24
+2012,2024-08-28,C-313,Non-Binary,32,Tokyo,Keyboard,124.58,2.0,Debit Card,2.0,249.16
+2013,2023-11-30,C-6097,Female,34,Singapore,Keyboard,91.29,1.0,Credit Card,3.0,91.29
+2016,2024-05-13,C-8304,Non-Binary,39,Toronto,Smartwatch,286.14,2.0,Cash,4.0,572.28
+2017,2024-05-15,C-3890,Female,24,Paris,Tablet,318.92,1.0,Debit Card,5.0,318.92
+2019,2024-01-05,C-6751,Male,40,Singapore,Monitor,418.72,1.0,Bank Transfer,3.0,418.72
+2020,2023-04-15,C-845,Male,37,Sydney,Keyboard,102.21,1.0,Bank Transfer,5.0,102.21
+2022,2023-09-14,C-7266,Male,24,Singapore,Laptop,1333.51,1.0,Cash,5.0,1333.51
+2023,2024-01-27,C-9032,Non-Binary,27,Berlin,Mouse,25.04,1.0,Paypal,2.0,25.04
+2024,2023-07-17,C-275,Male,35,Sydney,Mouse,23.15,1.0,Paypal,2.0,23.15
+2026,2023-07-20,C-1440,Female,41,London,Mouse,65.74,1.0,Paypal,4.0,65.74
+2027,2024-10-19,C-9062,Female,47,Paris,Tablet,684.65,1.0,Cash,5.0,684.65
+2028,2023-05-19,C-6964,Female,37,Paris,SmrtWatch,197.35,1.0,Bank Transfer,4.0,197.35
+2030,2024-07-28,C-1329,Female,40,Singapore,Laptop,1249.88,1.0,Cash,1.0,1249.88
+2031,2024-06-20,C-3349,Female,18,Paris,Keyboard,125.94,2.0,Paypal,5.0,251.88
+2032,2024-06-16,C-4877,Non-Binary,26,Berlin,Headphones,53.86,1.0,Credit Card,4.0,53.86
+2033,2023-06-18,C-5492,Male,41,Singapore,Laptop,1426.19,1.0,Paypal,3.0,1426.19
+2034,2023-01-27,C-7857,Non-Binary,39,Singapore,SmrtWatch,442.88,1.0,Bank Transfer,4.0,442.88
+2035,2023-05-02,C-841,Female,16,Tokyo,Smartwatch,196.91,3.0,Debit Card,5.0,590.73
+2036,2024-07-07,C-3549,Female,31,Sydney,Laptop,1629.3,3.5,Cash,1.0,2437.5249999999996
+2037,2024-01-22,C-7553,Female,43,Singapore,Smartphone,1307.96,2.0,Debit Card,1.0,2437.5249999999996
+2038,2024-12-13,C-6826,Male,40,Paris,Monitor,180.27,1.0,Credit Card,3.0,180.27
+2040,2023-05-13,C-7176,Female,44,London,Smartwatch,357.41,3.5,Credit Card,5.0,2437.5249999999996
+2042,2023-08-04,C-7028,Male,22,Paris,Monitor,160.09,1.0,Cash,5.0,160.09
+2043,2024-10-19,C-1429,Male,32,Toronto,Keyboard,121.89,1.0,Bank Transfer,1.0,121.89
+2044,2024-01-17,C-2982,Non-Binary,47,Toronto,Smartwatch,169.61,1.0,Paypal,4.0,169.61
+2045,2024-08-24,C-7175,Female,19,Tokyo,Headphones,236.38,1.0,Debit Card,4.0,236.38
+2046,2023-02-13,C-7364,Non-Binary,39,Paris,Laptop,1629.3,1.0,Cash,5.0,1757.77
+2047,2023-11-22,C-6427,Male,48,Berlin,Smartwatch,359.33,1.0,Credit Card,3.0,359.33
+2048,2023-02-28,C-2366,Female,36,Sydney,Keyboard,118.37,1.0,Cash,5.0,118.37
+2049,2024-10-28,C-8198,Male,35,Tokyo,Keyboard,111.96,1.0,Debit Card,5.0,111.96
+2051,2024-04-30,C-5873,Female,18,Singapore,Laptop,1381.24,1.0,Bank Transfer,5.0,1381.24
+2052,2024-09-30,C-4261,Female,42,London,Mouse,51.52,1.0,Bank Transfer,3.0,51.52
+2054,2024-08-17,C-8831,Male,22,Paris,Monitor,573.76,1.0,Cash,5.0,573.76
+2056,2023-01-09,C-709,Male,47,New York,Smartphone,702.82,1.0,Cash,4.0,702.82
+2057,2024-08-09,C-7311,Male,51,Berlin,Smartphone,1099.53,1.0,Paypal,4.0,1099.53
+2058,2023-02-15,C-7730,Non-Binary,41,London,Mouse,41.86,1.0,Credit Card,5.0,41.86
+2059,2024-11-24,C-9513,Male,24,Sydney,Mouse,68.62,1.0,Credit Card,5.0,68.62
+2060,2023-08-09,C-8302,Female,53,New York,Laptop,1629.3,2.0,Paypal,3.0,2437.5249999999996
+2062,2024-06-27,C-4875,Female,4,Paris,Monitor,219.16,1.0,Debit Card,3.0,219.16
+2063,2024-02-09,C-5631,Female,31,New York,Laptop,1270.92,3.5,Credit Card,2.0,2437.5249999999996
+2065,2023-07-26,C-2689,Non-Binary,53,Toronto,Tablet,222.22,1.0,Paypal,4.0,222.22
+2066,2024-09-07,C-5638,Male,37,New York,Smartwatch,364.29,3.0,Bank Transfer,4.0,1092.87
+2067,2024-03-05,C-3083,Male,25,Singapore,Monitor,446.57,1.0,Credit Card,5.0,446.57
+2068,2023-01-05,C-790,Female,42,Singapore,Headphones,107.36,2.0,Credit Card,4.0,214.72
+2069,2023-06-24,C-7517,Male,25,Toronto,Monitor,598.76,1.0,Paypal,5.0,598.76
+2070,2023-05-11,C-6896,Male,38,New York,Smartwatch,392.01,1.0,Cash,5.0,392.01
+2071,2023-12-05,C-2931,Female,44,New York,Mouse,69.32,1.0,Bank Transfer,5.0,69.32
+2072,2024-04-29,C-288,Female,28,Berlin,Laptop,1629.3,2.0,Credit Card,2.0,2437.5249999999996
+2074,2023-07-03,C-1167,Male,32,Singapore,Monitor,181.97,1.0,Credit Card,2.0,181.97
+2075,2024-03-23,C-182,Male,26,Berlin,Headphones,91.93,1.0,Cash,5.0,91.93
+2076,2023-12-19,C-4537,Female,29,New York,Laptop,1084.73,1.0,Paypal,2.0,1084.73
+2078,2023-06-25,C-608,Male,34,Tokyo,Headphones,105.16,2.0,Paypal,2.0,210.32
+2079,2024-04-02,C-8995,Non-Binary,40,New York,Monitor,296.81,1.0,Bank Transfer,5.0,296.81
+2080,2023-10-29,C-1083,Non-Binary,29,Berlin,Keyboard,53.34,1.0,Paypal,5.0,53.34
+2082,2024-02-29,C-8084,Non-Binary,42,Toronto,Keyboard,39.1,1.0,Debit Card,3.0,39.1
+2084,2024-10-09,C-9665,Male,34,Toronto,Keyboard,59.31,1.0,Debit Card,5.0,59.31
+2085,2024-09-22,C-1956,Female,24,Tokyo,Smartphone,1284.19,1.0,Debit Card,4.0,1284.19
+2086,2023-04-03,C-4474,Female,37,Singapore,Headphones,68.9,1.0,Cash,1.0,68.9
+2087,2023-12-01,C-1921,Male,67,Sydney,Headphones,103.88,1.0,Debit Card,4.0,103.88
+2088,2023-05-10,C-7266,Female,34,Sydney,Headphones,112.75,2.0,Paypal,4.0,225.5
+2089,2023-01-29,C-4266,Male,25,Berlin,Headphones,45.38,1.0,Bank Transfer,5.0,45.38
+2090,2023-08-09,C-1273,Non-Binary,55,Tokyo,Mouse,50.2,1.0,Cash,2.0,50.2
+2091,2024-10-16,C-3035,Female,31,New York,Monitor,499.67,3.0,Cash,5.0,1499.01
+2092,2024-05-21,C-2306,Male,39,Sydney,Headphones,256.83,3.5,Bank Transfer,2.0,2437.5249999999996
+2093,2024-08-07,C-8857,Male,11,London,Monitor,550.28,1.0,Paypal,4.0,550.28
+2094,2024-04-14,C-1753,Female,34,New York,SmrtWatch,1629.3,1.0,Bank Transfer,2.0,2060.79
+2095,2024-12-31,C-2099,Male,18,Toronto,Mouse,43.82,2.0,Cash,4.0,87.64
+2096,2024-08-05,C-5397,Female,46,Sydney,Headphones,139.84,1.0,Debit Card,4.0,139.84
+2098,2024-09-18,C-3722,Female,32,Paris,Smartwatch,385.43,1.0,Credit Card,4.0,385.43
+2099,2023-07-14,C-4071,Male,31,New York,Mouse,49.74,1.0,Credit Card,1.0,49.74
+2101,2023-11-13,C-3875,Female,33,New York,Laptop,1432.69,1.0,Debit Card,4.0,1432.69
+2102,2024-08-04,C-3469,Non-Binary,37,London,Monitor,233.37,1.0,Cash,4.0,233.37
+2103,2023-12-10,C-1161,Non-Binary,21,Singapore,Laptop,1171.81,1.0,Paypal,5.0,1171.81
+2104,2023-11-10,C-3176,Female,28,New York,Smartphone,1419.84,3.5,Paypal,3.0,2437.5249999999996
+2105,2024-08-09,C-4065,Male,45,Toronto,Tablet,599.88,1.0,Bank Transfer,4.0,599.88
+2106,2023-12-16,C-119,Non-Binary,49,Toronto,Smartwatch,210.22,1.0,Debit Card,5.0,210.22
+2107,2023-07-10,C-4554,Non-Binary,28,Tokyo,Mouse,48.97,2.0,Paypal,4.0,97.94
+2108,2023-01-08,C-2689,Non-Binary,28,New York,Smartphone,1140.04,1.0,Debit Card,4.0,1140.04
+2109,2024-02-04,C-414,Female,40,New York,Keyboard,48.37,3.0,Cash,4.0,145.11
+2110,2024-04-29,C-9482,Female,24,Toronto,Headphones,30.18,3.0,Bank Transfer,5.0,90.54
+2112,2024-07-21,C-7462,Non-Binary,27,Sydney,Keyboard,79.58,1.0,Paypal,4.0,79.58
+2113,2024-07-05,C-9116,Female,40,Paris,Smartwatch,128.13,1.0,Bank Transfer,4.0,128.13
+2114,2024-05-21,C-7792,Female,23,New York,Smartwatch,171.44,3.5,Credit Card,4.0,685.76
+2115,2024-09-06,C-9134,Non-Binary,26,New York,Smartphone,914.88,1.0,Debit Card,4.0,914.88
+2117,2024-07-21,C-5341,Non-Binary,40,New York,Keyboard,97.6,3.5,Cash,4.0,976.0
+2118,2024-12-16,C-9610,Female,35,Paris,Smartwatch,348.27,1.0,Cash,3.0,348.27
+2120,2024-05-19,C-4808,Male,36,Berlin,Laptop,1629.3,3.5,Cash,4.0,2437.5249999999996
+2121,2023-11-10,C-4817,Non-Binary,9,New York,Mouse,45.69,1.0,Paypal,4.0,45.69
+2122,2023-06-03,C-5919,Non-Binary,9,Paris,Tablet,787.43,1.0,Credit Card,5.0,787.43
+2123,2024-12-20,C-436,Female,55,Toronto,Smartphone,427.47,1.0,Paypal,1.0,427.47
+2125,2024-12-11,C-5987,Non-Binary,38,Paris,Tablet,321.45,1.0,Bank Transfer,5.0,321.45
+2126,2023-09-08,C-7910,Non-Binary,29,Paris,Smartwatch,325.23,1.0,Paypal,4.0,325.23
+2127,2023-12-14,C-9510,Female,50,London,Smartwatch,331.83,1.0,Bank Transfer,2.0,331.83
+2128,2024-02-15,C-8008,Female,43,Toronto,Mouse,75.04,1.0,Cash,4.0,75.04
+2129,2024-11-21,C-4408,Male,57,Toronto,Tablet,246.32,1.0,Paypal,3.0,246.32
+2131,2023-05-03,C-9226,Female,50,New York,Monitor,305.29,1.0,Paypal,4.0,305.29
+2133,2024-10-10,C-9257,Female,38,Toronto,Smartwatch,283.44,1.0,Debit Card,5.0,283.44
+2134,2023-09-21,C-3002,Non-Binary,45,Singapore,Keyboard,143.13,3.0,Credit Card,2.0,429.39
+2135,2023-12-20,C-3773,Male,29,Berlin,Headphones,229.55,1.0,Paypal,3.0,229.55
+2136,2023-02-25,C-1766,Non-Binary,45,Berlin,Monitor,595.55,1.0,Debit Card,5.0,595.55
+2137,2023-08-16,C-1885,Male,52,New York,Smartwatch,201.99,1.0,Debit Card,3.0,201.99
+2138,2024-01-09,C-5838,Female,15,Paris,Keyboard,64.64,2.0,Credit Card,4.0,129.28
+2139,2023-06-17,C-5625,Non-Binary,30,Berlin,Monitor,570.97,1.0,Paypal,2.0,570.97
+2140,2023-11-10,C-4150,Female,42,Tokyo,Mouse,14.33,1.0,Cash,5.0,14.33
+2141,2024-03-05,C-7931,Non-Binary,32,Paris,Tablet,313.95,1.0,Credit Card,4.0,470.925
+2142,2023-07-06,C-9555,Female,36,Singapore,Smartphone,671.32,1.0,Paypal,5.0,671.32
+2143,2023-09-02,C-8371,Non-Binary,0,Berlin,Headphones,208.72,2.0,Cash,4.0,417.44
+2145,2023-03-06,C-3265,Male,53,Tokyo,Headphones,234.4,1.0,Debit Card,3.0,234.4
+2146,2024-06-22,C-7369,Female,23,New York,Smartwatch,220.72,3.0,Bank Transfer,5.0,662.16
+2147,2023-05-03,C-6171,Male,55,New York,Laptop,1629.3,3.5,Debit Card,5.0,2437.5249999999996
+2148,2024-04-05,C-1682,Non-Binary,48,Berlin,Smartphone,698.8,1.0,Cash,5.0,698.8
+2149,2024-03-28,C-3237,Male,21,Singapore,Keyboard,44.0,1.0,Bank Transfer,5.0,44.0

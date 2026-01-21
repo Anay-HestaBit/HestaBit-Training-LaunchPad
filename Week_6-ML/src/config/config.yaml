@@ -1,0 +1,3 @@
+paths:
+  raw_data: src/data/raw/raw_Data.csv
+  processed_data: src/data/processed/cleaned_Data.csv

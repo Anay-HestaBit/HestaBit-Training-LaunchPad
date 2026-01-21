@@ -6,3 +6,5 @@ node_modules/
 logs/
 certs/
 *.pem
+venv
+.ipynb_checkpoints/
