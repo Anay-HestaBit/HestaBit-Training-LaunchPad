@@ -48,7 +48,7 @@ Transaction_ID,Date,Customer_ID,Gender,Age,City,Product_Category,Unit_Price,Quan
 1053,2024-08-25,C-9221,Female,31,Paris,Smartphone,683.74,1.0,Paypal,4.0,683.74
 1055,2024-08-04,C-1397,Male,50,Berlin,Mouse,16.52,3.0,Paypal,2.0,49.56
 1056,2023-07-17,C-6683,Non-Binary,38,Paris,Mouse,33.73,1.0,Debit Card,3.0,33.73
-1057,2024-06-06,C-2968,Non-Binary,44,Paris,SmrtWatch,476.68,3.0,Debit Card,3.0,1430.04
+1057,2024-06-06,C-2968,Non-Binary,44,Paris,SmartWatch,476.68,3.0,Debit Card,3.0,1430.04
 1058,2023-10-10,C-3444,Female,38,New York,Keyboard,103.46,1.0,Cash,4.0,103.46
 1059,2023-03-06,C-4331,Female,39,London,Monitor,222.73,3.0,Bank Transfer,5.0,668.1899999999999
 1060,2023-06-07,C-3486,Female,38,Berlin,Mouse,10.35,1.0,Bank Transfer,3.0,10.35
