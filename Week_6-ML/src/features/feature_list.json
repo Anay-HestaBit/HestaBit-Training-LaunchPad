@@ -1,18 +1,12 @@
-{
-  "total_features_after_engineering": 15,
-  "features_removed_by_correlation": 5,
-  "features_selected_by_mutual_info": 15,
-  "final_selected_features": 10,
-  "feature_names": [
-    "cibil_score",
-    "high_cibil_flag",
-    "loan_to_assets_ratio",
-    "loan_per_year",
-    "loan_term",
-    "residential_assets_value",
-    "education",
-    "income_annum",
-    "loan_to_income_ratio",
-    "assets_to_income_ratio"
-  ]
-}
+[
+  "no_of_dependents",
+  "income_annum",
+  "loan_term",
+  "residential_assets_value",
+  "commercial_assets_value",
+  "bank_asset_value",
+  "loan_coverage_ratio",
+  "loan_to_income",
+  "liquidity_ratio",
+  "self_employed_ Yes"
+]

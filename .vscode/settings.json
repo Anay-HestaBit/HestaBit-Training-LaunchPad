@@ -27,6 +27,7 @@
     "INITDB",
     "ipynb",
     "Licence",
+    "logloss",
     "maxlength",
     "Mehta",
     "missingness",
@@ -36,6 +37,7 @@
     "myapp",
     "Neha",
     "Pooja",
+    "proba",
     "Rohit",
     "runbook",
     "SAMEORIGIN",
@@ -48,7 +50,9 @@
     "venv",
     "Verma",
     "virtuals",
-    "Vivek"
+    "Vivek",
+    "xlabel",
+    "ylabel"
   ],
   "git.ignoreLimitWarning": true
 }
