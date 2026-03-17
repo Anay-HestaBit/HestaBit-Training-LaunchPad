@@ -49,7 +49,7 @@ async def run_pipeline(query: str, memory_window):
     memory_window.append(("assistant", final_text))
 
 if __name__ == "__main__":
-    memory_window = deque(maxlen=8)  # Sliding window: keeps only latest 8 messages
+    memory_window = deque(maxlen=10)  # Sliding window: keeps only latest 10 messages
     while True:
         query = input("What would you like to research? (type 'exit' or 'clear'): ")
         if query.lower() == 'exit':

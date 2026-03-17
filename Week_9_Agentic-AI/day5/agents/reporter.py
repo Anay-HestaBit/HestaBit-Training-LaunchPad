@@ -41,7 +41,7 @@ SYNTHESIS RULES
 OUTPUT REQUIREMENT
 Write the final report to the following location using available tools:
 
-{OUTPUT_DIR}/final-report.md
+{OUTPUT_DIR.parent}/FINAL-REPORT.md
 """
 
 

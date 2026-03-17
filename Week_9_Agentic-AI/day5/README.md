@@ -26,10 +26,12 @@ This folder contains a simple autonomous multi-agent workflow:
 pip install -r requirements.txt
 ```
 
-2. Add env variable in `.env`:
+2. Add env variables in `.env`:
 
 ```env
 LLM_API_KEY=your_key_here
+LLM_MODEL=openai/gpt-oss-120b
+LLM_BASE_URL=https://api.groq.com/openai/v1
 ```
 
 ## Run
@@ -38,6 +40,12 @@ From this folder:
 
 ```bash
 python3 -u main.py
+```
+
+PDF-compatible package path:
+
+```bash
+python3 -m nexus_ai.main
 ```
 
 Then enter a task in the interactive shell.
@@ -59,6 +67,7 @@ Then enter a task in the interactive shell.
 - Generated artifacts: `Output/`
 - Memory index: `memory/faiss.index`
 - Long-term memory DB: `memory/long_term.db`
+- PDF-compatible wrappers: `nexus_ai/main.py`, `nexus_ai/config.py`
 
 ## Notes
 
