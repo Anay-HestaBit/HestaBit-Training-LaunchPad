@@ -1,0 +1,17 @@
+faiss-cpu
+groq
+langchain-text-splitters
+numpy
+pandas
+pdfplumber
+pillow
+PyMuPDF
+pytesseract
+python-dotenv
+rank-bm25
+sentence-transformers
+streamlit
+torch
+tqdm
+transformers
+clip @ git+https://github.com/openai/CLIP.git

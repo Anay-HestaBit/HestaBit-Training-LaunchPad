@@ -1,3 +1,4 @@
+import sys
 import json
 import uuid
 import re
@@ -8,6 +9,10 @@ from PIL import Image
 from pathlib import Path
 from tqdm import tqdm
 from transformers import BlipProcessor, BlipForConditionalGeneration
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 RAW_DATA = Path("src/data/raw")
 IMAGE_DIR = Path("src/data/images")

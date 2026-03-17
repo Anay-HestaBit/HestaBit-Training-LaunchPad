@@ -1,8 +1,14 @@
+import sys
 import json
 import uuid
 from pathlib import Path
 from tqdm import tqdm
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.utils.text_cleaner import clean_text
 from src.utils.pdf_processor import extract_text_and_tables
 from src.utils.logger import logger
