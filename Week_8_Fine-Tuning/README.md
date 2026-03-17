@@ -60,10 +60,27 @@ Access:
 
 ## API Endpoints
 
+- `POST /generate`
+- `POST /chat`
 - `POST /generate/stream`
 - `POST /chat/stream`
 
-Both endpoints return streamed plain-text token output.
+The non-stream endpoints return JSON payloads. The `/stream` variants return streamed plain-text token output.
+
+Example (`/generate`):
+
+```bash
+curl -X POST "http://127.0.0.1:8000/generate" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "system_prompt": "You are a strict coding assistant.",
+    "prompt": "Write a Python function to check if a number is prime.",
+    "max_tokens": 256,
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "top_k": 40
+  }'
+```
 
 Example (`/generate/stream`):
 
@@ -106,3 +123,4 @@ docker run -p 8000:8000 -p 8501:8501 tinyllama-week8
 - The backend guardrail is programming-domain restricted.
 - Chat mode uses in-memory session history.
 - `deploy/config.py` controls model path and runtime settings.
+- The requirements file includes both deployment dependencies and the training stack referenced in the Week 8 brief.
